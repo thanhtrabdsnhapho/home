@@ -1,91 +1,365 @@
+
+Generated html
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Thanh Trà BĐS Nhà Phố</title>
-  <meta name="description" content="Chuyên bán nhà phố Quận 9 – TP. Thủ Đức | Uy tín – Nhanh chóng – Giá tốt.">
-  <style>
-    body {
-      margin: 0; font-family: "Segoe UI", sans-serif; background: #f7f7f7; color: #222;
-    }
-    header {
-      background: #00796b; color: white; padding: 30px 20px; text-align: center;
-    }
-    nav {
-      background: #e0e0e0; text-align: center; padding: 10px;
-    }
-    nav a {
-      color: #00796b; text-decoration: none; margin: 0 15px; font-weight: bold;
-    }
-    .container {
-      max-width: 1100px; margin: 30px auto; padding: 20px;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 20px;
-    }
-    .card {
-      background: white; padding: 15px; border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    .card img {
-      width: 100%; border-radius: 6px;
-    }
-    .card h3 {
-      margin-top: 10px; color: #00796b;
-    }
-    .card p {
-      font-size: 15px; margin: 5px 0;
-    }
-    footer {
-      background: #333; color: white; text-align: center; padding: 20px; margin-top: 40px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- THAY ĐỔI Ở ĐÂY: Tiêu đề trang web -->
+    <title>Thanh Trà | Bất Động Sản Nhà Phố Uy Tín</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome (for icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS (CSS nội tuyến để tái tạo phong cách) -->
+    <style>
+        body {
+            font-family: 'Be Vietnam Pro', sans-serif;
+            color: #333;
+        }
+
+        /* Màu sắc chủ đạo từ trang mẫu */
+        :root {
+            --primary-color: #c59d5f;
+            --dark-color: #222;
+        }
+        
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+
+        .nav-link {
+            font-weight: 500;
+        }
+        .nav-link:hover, .nav-link.active {
+            color: var(--primary-color) !important;
+        }
+
+        .hero-section {
+            /* THAY ĐỔI Ở ĐÂY: Link ảnh nền chính */
+            background: url('https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center;
+            background-size: cover;
+            position: relative;
+            padding: 150px 0;
+            color: white;
+            text-align: center;
+        }
+
+        .hero-section::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            z-index: 1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-content .display-4 {
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .hero-content .lead {
+            font-weight: 500;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+            font-weight: 600;
+            padding: 12px 30px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #a8844f;
+            border-color: #a8844f;
+            transform: translateY(-2px);
+        }
+
+        .btn-outline-primary {
+            color: var(--primary-color);
+            border-color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        .btn-outline-primary:hover {
+            color: white;
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+
+        .section-title {
+            font-weight: 700;
+            margin-bottom: 50px;
+            color: var(--dark-color);
+        }
+        
+        .property-card {
+            border: 1px solid #eee;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .property-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+        
+        .property-card .card-img-top {
+            height: 220px;
+            object-fit: cover;
+        }
+        
+        .property-card .price {
+            color: var(--primary-color);
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+        
+        .property-card .card-body ul {
+            padding-left: 0;
+            list-style: none;
+            color: #666;
+        }
+        .property-card .card-body ul li i {
+            color: var(--primary-color);
+            margin-right: 8px;
+        }
+        
+        .about-img {
+            max-width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        #contact {
+            background-color: #f8f9fa;
+        }
+        
+        .footer {
+            background-color: var(--dark-color);
+            color: #ccc;
+        }
+        .footer h5 {
+            color: white;
+            font-weight: 600;
+        }
+        .footer a {
+            color: #ccc;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .footer a:hover {
+            color: var(--primary-color);
+        }
+        .footer .social-icons a {
+            font-size: 1.5rem;
+            margin-right: 15px;
+        }
+    </style>
 </head>
 <body>
 
-<header>
-  <h1>THANH TRÀ BĐS NHÀ PHỐ</h1>
-  <p>Chuyên nhà phố Quận 9 – TP. Thủ Đức | Hotline: 0854 100 036</p>
-</header>
+    <!-- Header / Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+            <div class="container">
+                <!-- THAY ĐỔI Ở ĐÂY: Tên thương hiệu -->
+                <a class="navbar-brand" href="#">THANH TRÀ | BDS NHÀ PHỐ</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#hero">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">Sản Phẩm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-<nav>
-  <a href="#">Trang chủ</a>
-  <a href="#">Bán nhà</a>
-  <a href="#">Liên hệ</a>
-</nav>
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content container">
+                <!-- THAY ĐỔI Ở ĐÂY: Tiêu đề chính -->
+                <h1 class="display-4">BẤT ĐỘNG SẢN NHÀ PHỐ</h1>
+                <p class="lead my-4">UY TÍN - TẬN TÂM - CHUYÊN NGHIỆP</p>
+                <!-- THAY ĐỔI Ở ĐÂY: Số điện thoại và link Zalo -->
+                <a href="tel:0854100036" class="btn btn-primary me-2 mb-2"><i class="fas fa-phone me-2"></i>Hotline: 0938.123.456</a>
+                <a href="https://zalo.me/0854100036" target="_blank" class="btn btn-outline-primary mb-2"><i class="fa-solid fa-comment-dots me-2"></i>Chat Zalo</a>
+            </div>
+        </section>
 
-<div class="container">
-  <h2 style="color:#00796b;">Danh sách nhà bán</h2>
-  <div class="grid">
-    <div class="card">
-      <img src="https://via.placeholder.com/300x180?text=Nha+3+Tang" alt="Nhà 3 tầng">
-      <h3>Nhà 3 tầng – Đường 102 – 7.8 tỷ</h3>
-      <p>DT 5x20m, sổ hồng riêng, hoàn công đầy đủ, đường lớn xe hơi.</p>
-    </div>
-    <div class="card">
-      <img src="https://via.placeholder.com/300x180?text=Nha+Lo+Goc" alt="Nhà lô góc">
-      <h3>Siêu phẩm lô góc – 20 tỷ</h3>
-      <p>2 mặt tiền cực đẹp, đường Lã Xuân Oai, thích hợp mở văn phòng.</p>
-    </div>
-    <div class="card">
-      <img src="https://via.placeholder.com/300x180?text=Nha+Gan+Vinhome" alt="Nhà gần Vinhome">
-      <h3>Nhà gần Vinhome – 3.5 tỷ</h3>
-      <p>Hẻm xe hơi thông, gần chợ Long Trường – tiện ích đầy đủ.</p>
-    </div>
-  </div>
+        <!-- Products Section -->
+        <section id="products" class="py-5">
+            <div class="container">
+                <h2 class="text-center section-title">SẢN PHẨM MỚI NHẤT</h2>
+                <div class="row">
+                    <!-- THAY ĐỔI Ở ĐÂY: Thông tin từng sản phẩm -->
+                    <!-- Sản phẩm 1 -->
+                    <div class="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch">
+                        <div class="card property-card w-100">
+                            <img src="https://images.pexels.com/photos/209315/pexels-photo-209315.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Nhà mặt tiền">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Bán nhà mặt tiền đường Phan Xích Long, Phú Nhuận</h5>
+                                <ul class="my-3">
+                                    <li><i class="fas fa-ruler-combined"></i><strong>Diện tích:</strong> 4m x 20m</li>
+                                    <li><i class="fas fa-building"></i><strong>Kết cấu:</strong> 1 trệt, 3 lầu, sân thượng</li>
+                                </ul>
+                                <div class="mt-auto">
+                                    <p class="price mb-2">Giá: 35 Tỷ</p>
+                                    <a href="#" class="btn btn-outline-primary w-100">Xem thêm</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Sản phẩm 2 -->
+                    <div class="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch">
+                        <div class="card property-card w-100">
+                            <img src="https://images.pexels.com/photos/221540/pexels-photo-221540.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Biệt thự mini">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Biệt thự mini hẻm xe hơi Quận 3, gần Lê Văn Sỹ</h5>
+                                <ul class="my-3">
+                                    <li><i class="fas fa-ruler-combined"></i><strong>Diện tích:</strong> 8m x 12m, nở hậu</li>
+                                    <li><i class="fas fa-building"></i><strong>Kết cấu:</strong> 1 trệt, 2 lầu, gara ô tô</li>
+                                </ul>
+                                <div class="mt-auto">
+                                    <p class="price mb-2">Giá: 22 Tỷ</p>
+                                    <a href="#" class="btn btn-outline-primary w-100">Xem thêm</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Sản phẩm 3 -->
+                    <div class="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch">
+                        <div class="card property-card w-100">
+                            <img src="https://images.pexels.com/photos/164522/pexels-photo-164522.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Nhà hẻm">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Nhà hẻm yên tĩnh CMT8, Quận 10, sổ hồng riêng</h5>
+                                <ul class="my-3">
+                                    <li><i class="fas fa-ruler-combined"></i><strong>Diện tích:</strong> 5m x 15m</li>
+                                    <li><i class="fas fa-building"></i><strong>Kết cấu:</strong> 1 trệt, 1 lầu, 2 phòng ngủ</li>
+                                </ul>
+                                <div class="mt-auto">
+                                    <p class="price mb-2">Giá: 9.5 Tỷ</p>
+                                    <a href="#" class="btn btn-outline-primary w-100">Xem thêm</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Bạn có thể sao chép và dán khối <div class="col-lg-4..."> để thêm nhiều sản phẩm khác -->
+                </div>
+            </div>
+        </section>
 
-  <h2 style="color:#00796b; margin-top:40px;">Liên hệ</h2>
-  <p>📞 Hotline/Zalo: <strong>0854 100 036</strong></p>
-  <p>📍 Địa chỉ: Q9 – TP. Thủ Đức</p>
-  <p>📘 Facebook: <a href="https://www.facebook.com/thanhtrabds" target="_blank">facebook.com/thanhtrabds</a></p>
-</div>
+        <!-- About Section -->
+        <section id="about" class="py-5 bg-light">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 text-center mb-4 mb-lg-0">
+                        <!-- THAY ĐỔI Ở ĐÂY: Ảnh chân dung của bạn -->
+                        <img src="https://i.pravatar.cc/400?img=32" alt="Thanh Trà Bất Động Sản" class="about-img">
+                    </div>
+                    <div class="col-lg-7">
+                        <!-- THAY ĐỔI Ở ĐÂY: Toàn bộ phần văn bản giới thiệu -->
+                        <h2 class="section-title text-start mb-3">Thanh Trà - Chuyên viên tư vấn BĐS nhà phố</h2>
+                        <p class="lead" style="color: var(--primary-color);">Tận tâm - Chuyên nghiệp - Hiệu quả</p>
+                        <p>Với nhiều năm kinh nghiệm trong lĩnh vực môi giới bất động sản nhà phố tại các quận trung tâm TP.HCM, tôi tự tin sẽ là người đồng hành đáng tin cậy giúp quý khách hàng tìm được sản phẩm ưng ý nhất.</p>
+                        <p>Phương châm làm việc của tôi là đặt lợi ích của khách hàng lên hàng đầu, cung cấp thông tin chính xác, minh bạch và hỗ trợ toàn diện về mặt pháp lý, đảm bảo mọi giao dịch diễn ra an toàn và nhanh chóng.</p>
+                        <p>Hãy liên hệ với tôi để nhận được sự tư vấn chuyên sâu và tìm kiếm cơ hội đầu tư tốt nhất!</p>
+                        <!-- THAY ĐỔI Ở ĐÂY: Số điện thoại và link Zalo -->
+                        <div class="mt-4">
+                            <a href="tel:0854100036" class="btn btn-primary me-2"><i class="fas fa-phone me-2"></i>Liên hệ ngay</a>
+                            <a href="https://zalo.me/084100036" target="_blank" class="btn btn-outline-primary"><i class="fa-solid fa-comment-dots me-2"></i>Tư vấn qua Zalo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<footer>
-  © 2025 Thanh Trà BĐS | Website: thanhtrabdsnhapho.github.io/home
-</footer>
+        <!-- Contact Section -->
+        <section id="contact" class="py-5">
+            <div class="container text-center">
+                <h2 class="section-title">LIÊN HỆ VỚI CHÚNG TÔI</h2>
+                <p class="lead mb-4">Đừng ngần ngại, hãy gọi ngay cho tôi để được tư vấn miễn phí!</p>
+                <!-- THAY ĐỔI Ở ĐÂY: Thông tin liên hệ -->
+                <div class="contact-info">
+                    <h4><i class="fas fa-user-tie me-2" style="color: var(--primary-color);"></i>Thanh Trà</h4>
+                    <h3 class="my-3"><i class="fas fa-phone-alt me-2" style="color: var(--primary-color);"></i>Hotline/Zalo: <a href="tel:0854100036" class="text-decoration-none" style="color: var(--dark-color);">0938.123.456</a></h3>
+                    <p><i class="fas fa-envelope me-2" style="color: var(--primary-color);"></i>Email: <a href="mailto:thanhtra1996st@gmail.com" class="text-decoration-none" style="color: var(--dark-color);">thanhtra.bds@example.com</a></p>
+                </div>
+            </div>
+        </section>
 
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer pt-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <!-- THAY ĐỔI Ở ĐÂY: Thông tin footer -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5>THANH TRÀ | BDS NHÀ PHỐ</h5>
+                    <p class="mt-3">Nền tảng tư vấn, môi giới bất động sản nhà phố chuyên nghiệp, uy tín hàng đầu tại Quận 9 - TP. Hồ Chí Minh.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5>THÔNG TIN LIÊN HỆ</h5>
+                    <ul class="list-unstyled mt-3">
+                        <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i>Văn phòng: Lò Lu, Trường Thạnh, TP.Thủ Đức</li>
+                        <li class="mb-2"><i class="fas fa-phone me-2"></i><a href="tel:00854100036">0854100036</a></li>
+                        <li class="mb-2"><i class="fas fa-envelope me-2"></i><a href="mailto:thanhtra.bds@example.com">thanhtra.bds@example.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <h5>KẾT NỐI VỚI TÔI</h5>
+                    <div class="social-icons mt-3">
+                        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://zalo.me/0854100036" target="_blank"><i class="fa-solid fa-comment-dots"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr style="border-color: #555;">
+            <div class="text-center pt-2">
+                <p>© 2024 Bản quyền thuộc về Thanh Trà. </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
