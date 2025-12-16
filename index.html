@@ -301,79 +301,45 @@ async function loadProducts() {
 // Chạy hàm khi trang web tải xong
 window.addEventListener('DOMContentLoaded', loadProducts);
 </script>
-        </div>
-                    <!-- Sản phẩm 1 -->
-                    <div class="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch">
-                        <div class="card property-card w-100">
-                            <img src="https://thanhtrabdsnhapho.github.io/home/assets/1.jpg" class="card-img-top" alt="Nhà mặt tiền">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">⚽️ NHÀ TRỆT LỬNG HẺM XE HƠI THÔNG ĐƯỜNG 385 – 40M2 CHỈ 3,2TỶ</h5>
-                                <ul class="my-3">
-                                    <li><i class="fas fa-ruler-combined"></i><strong>Diện tích:</strong> 40m2</li>
-                                    <li><i class="fas fa-building"></i><strong>Kết cấu:</strong> Nhà trệt lửng, 2PN, 2WC</li>
-                                </ul>
-                                <div class="mt-auto">
-                                    <p class="price mb-2">Giá: 3.255 Tỷ</p>
-                                    <a href="https://sites.google.com/view/thanhtrabdsnhapho" target="_blank" class="btn btn-outline-primary w-100">Xem thêm</a>
-                                </div>
-                            </div>
+        <section id="products" class="py-5">
+        <div class="container">
+            <h2 class="text-center section-title">DANH SÁCH BẤT ĐỘNG SẢN</h2>
+            
+            <div id="product-container" class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card property-card">
+                        <img src="https://thanhtrabdsnhapho.github.io/home/assets/1.jpg" alt="Nhà hẻm 385">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">⚽️ NHÀ TRỆT LỬNG HẺM XE HƠI THÔNG ĐƯỜNG 385 – 40M2</h5>
+                            <p class="price">Giá: 3.255 Tỷ</p>
+                            <ul class="info-list flex-grow-1">
+                                <li><i class="fas fa-map-marker-alt"></i>Đường 385, Tăng Nhơn Phú A</li>
+                                <li><i class="fas fa-ruler-combined"></i>DT: 40m2</li>
+                                <li><i class="fas fa-building"></i>Kết cấu: Trệt lửng, 2PN, 2WC</li>
+                            </ul>
+                            <a href="https://sites.google.com/view/thanhtrabdsnhapho" class="btn btn-outline-primary w-100">Xem chi tiết</a>
                         </div>
                     </div>
-                    <!-- Sản phẩm 2 -->
-                    <div class="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch">
-                        <div class="card property-card w-100">
-                            <img src="https://thanhtrabdsnhapho.github.io/home/assets/ltp1.jpg" class="card-img-top" alt="Biệt thự mini">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">✋NHÀ ĐẸP XE TẢI TRÁNH – FULL NỘI THẤT – GẦN LÊ VĂN VIỆT – CHỈ 8.3 TỶ</h5>
-                                <ul class="my-3">
-                                    <li><i class="fas fa-ruler-combined"></i><strong>Diện tích:</strong> 4m x 22m</li>
-                                    <li><i class="fas fa-building"></i><strong>Kết cấu:</strong> 1 trệt, 1 lầu, 3PN,2 WC</li>
-                                </ul>
-                                <div class="mt-auto">
-                                    <p class="price mb-2">Giá: 8.3 Tỷ</p>
-                                    <a href="https://sites.google.com/view/thanhtrabdsnhapho/nha-dep-duong-ltp-8t3" target="_blank" class="btn btn-outline-primary w-100">Xem thêm</a>
-                                </div>
-                            </div>
-                        </div>
-                   </div>
-                    <!-- Sản phẩm 3 -->
-                    <div class="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch">
-                        <div class="card property-card w-100">
-                            <img src="https://thanhtrabdsnhapho.github.io/home/assets/lolo1127.jpg" class="card-img-top" alt="Nhà hẻm">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">CHỈ 5.2 TỶ - NHÀ ĐẸP 3 TẦNG - 60M2 - ĐƯỜNG TRƯỚC NHÀ 8M - XE HƠI VI VU  </h5>
-                                <ul class="my-3">
-                                    <li><i class="fas fa-ruler-combined"></i><strong>Diện tích:</strong> 4m x 15m</li>
-                                    <li><i class="fas fa-building"></i><strong>Kết cấu:</strong> 1 trệt, 1 lầu, 2 phòng ngủ</li>
-                                </ul>
-                                <div class="mt-auto">
-                                    <p class="price mb-2">Giá: 5.2 Tỷ</p>
-                                    <a href="https://sites.google.com/view/thanhtrabdsnhapho/duong-ll-1102731-5t" target="_blank" class="btn btn-outline-primary w-100">Xem thêm</a>
-                                </div>
-                            </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card property-card">
+                        <img src="https://thanhtrabdsnhapho.github.io/home/assets/ltp1.jpg" alt="Nhà Lê Văn Việt">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">✋NHÀ ĐẸP XE TẢI TRÁNH – FULL NỘI THẤT – GẦN LÊ VĂN VIỆT</h5>
+                            <p class="price">Giá: 8.3 Tỷ</p>
+                            <ul class="info-list flex-grow-1">
+                                <li><i class="fas fa-map-marker-alt"></i>Gần Lê Văn Việt, TP. Thủ Đức</li>
+                                <li><i class="fas fa-ruler-combined"></i>DT: 88m2 (4x22m)</li>
+                                <li><i class="fas fa-building"></i>Kết cấu: 1 trệt 1 lầu, 3PN</li>
+                            </ul>
+                            <a href="https://sites.google.com/view/thanhtrabdsnhapho/nha-dep-duong-ltp-8t3" class="btn btn-outline-primary w-100">Xem chi tiết</a>
                         </div>
                     </div>
-                    <!-- Bạn có thể sao chép và dán khối <div class="col-lg-4..."> để thêm nhiều sản phẩm khác -->
-                    <div class="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch">
-                        <div class="card property-card w-100">
-                            <img src="https://thanhtrabdsnhapho.github.io/home/assets/84ad8lltht (3).jpg" class="card-img-top" alt="Nhà mặt tiền">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">NHÀ 2 TẦNG SIÊU ĐẸP – NGAY KĐT ĐÔNG TĂNG LONG – GIÁ CHỈ 6 TỶ </h5>
-                                <ul class="my-3">
-                                    <li><i class="fas fa-ruler-combined"></i><strong>Diện tích:</strong> 102.6m² (5.5 x 17.75m, nở hậu 6.1m)</li>
-                                    <li><i class="fas fa-building"></i><strong>Kết cấu:</strong> Nhà trệt lửng, 3PN, 2WC</li>
-                                </ul>
-                                <div class="mt-auto">
-                                    <p class="price mb-2">Giá: 6 Tỷ</p>
-                                    <a href="https://sites.google.com/view/thanhtrabdsnhapho/duong86t" target="_blank" class="btn btn-outline-primary w-100">Xem thêm</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Bạn có thể sao chép và dán khối <div class="col-lg-4..."> để thêm nhiều sản phẩm khác -->
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
         <!-- About Section -->
         <section id="about" class="py-5 bg-light">
