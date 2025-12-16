@@ -77,7 +77,7 @@
 </form>
 
 <script>
-    const scriptURL = 'DÁN_LINK_WEB_APP_CỦA_BẠN_VÀO_ĐÂY';
+    const scriptURL = 'https://docs.google.com/spreadsheets/d/1eORkv8cFn5IV46qO4AqhlWiIdmrX0BHTKhIgWPMt-FA/edit?usp=sharing';
     const form = document.getElementById('postForm');
 
     form.addEventListener('submit', e => {
