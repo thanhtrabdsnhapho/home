@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng bài - Thanh Tra BĐS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #f4f4f4; padding: 20px; }
+        .form-container { background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); max-width: 800px; margin: auto; }
+        .section-title { border-left: 4px solid #e03c31; padding-left: 10px; margin-bottom: 20px; font-weight: bold; color: #2c2c2c; }
+        .btn-post { background-color: #e03c31; color: white; width: 100%; font-weight: bold; padding: 12px; }
+        .btn-post:hover { background-color: #c43229; color: white; }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <h2 class="text-center mb-4">Đăng tin rao bán nhà phố</h2>
+
+    <div class="section-title">Thông tin mô tả</div>
+    <div class="mb-3">
+        <label class="form-label">Tiêu đề (VD: Bán nhà phố hẻm xe hơi Quận 1 giá cực tốt)</label>
+        <input type="text" class="form-control" placeholder="Nhập tiêu đề bài đăng">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Nội dung mô tả</label>
+        <textarea class="form-control" rows="5" placeholder="Mô tả chi tiết về vị trí, tiện ích, pháp lý..."></textarea>
+    </div>
+
+    <div class="section-title">Thông tin bất động sản</div>
+    <div class="row">
+        <div class="col-md-6 mb-3">
+            <label class="form-label">Diện tích (m²)</label>
+            <input type="number" class="form-control" placeholder="VD: 50">
+        </div>
+        <div class="col-md-6 mb-3">
+            <label class="form-label">Mức giá (VNĐ)</label>
+            <input type="text" class="form-control" placeholder="VD: 5.5 tỷ">
+        </div>
+        <div class="col-md-6 mb-3">
+            <label class="form-label">Số phòng ngủ</label>
+            <input type="number" class="form-control" placeholder="VD: 3">
+        </div>
+        <div class="col-md-6 mb-3">
+            <label class="form-label">Hướng nhà</label>
+            <select class="form-select">
+                <option>Đông</option><option>Tây</option><option>Nam</option><option>Bắc</option>
+                <option>Đông Nam</option><option>Đông Bắc</option><option>Tây Nam</option><option>Tây Bắc</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="section-title">Hình ảnh</div>
+    <div class="mb-4 text-center" style="border: 2px dashed #ccc; padding: 30px; border-radius: 5px;">
+        <input type="file" id="fileInput" multiple style="display: none;">
+        <label for="fileInput" style="cursor: pointer;">
+            <span style="font-size: 40px;">📷</span><br>
+            Bấm để tải ảnh lên (Tối đa 10 ảnh)
+        </label>
+    </div>
+
+    <button class="btn btn-post">ĐĂNG TIN NGAY</button>
+</div>
+
+</body>
+</html>
