@@ -35,17 +35,30 @@
             <input type="number" class="form-control" placeholder="VD: 50">
         </div>
         <div class="col-md-6 mb-3">
-            <label class="form-label">Mức giá (VNĐ)</label>
+            <label class="form-label">Mức giá (Tỷ)</label>
             <input type="text" class="form-control" placeholder="VD: 5.5 tỷ">
         </div>
         <div class="col-md-6 mb-3">
             <label class="form-label">Số phòng ngủ</label>
+            <select class="form-select">
+                <option>Không Xác Định</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                </select>
             <input type="number" class="form-control" placeholder="VD: 3">
         </div>
         <div class="col-md-6 mb-3">
             <label class="form-label">Hướng nhà</label>
             <select class="form-select">
-                <option>Đông</option><option>Tây</option><option>Nam</option><option>Bắc</option>
+               <option>Không Xác Định</option>
+                <option>Đông</option>
+                <option>Tây</option>
+                <option>Nam</option>
+                <option>Bắc</option>
                 <option>Đông Nam</option><option>Đông Bắc</option><option>Tây Nam</option><option>Tây Bắc</option>
             </select>
         </div>
@@ -73,7 +86,7 @@
     form.addEventListener('submit', e => {
         e.preventDefault();
         fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => alert("Đăng tin thành công! Kiểm tra Google Sheets của bạn."))
+            .then(response => alert("Đăng tin thành công! ."))
             .catch(error => console.error('Lỗi!', error.message));
     });
 </script>
