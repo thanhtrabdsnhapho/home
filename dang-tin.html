@@ -9,7 +9,7 @@
         body { background-color: #f4f4f4; padding: 20px; }
         .form-container { background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); max-width: 800px; margin: auto; }
         .section-title { border-left: 4px solid #e03c31; padding-left: 10px; margin-bottom: 20px; font-weight: bold; color: #2c2c2c; }
-        .btn-post { background-color: #e03c31; color: white; width: 100%; font-weight: bold; padding: 12px; }
+        .btn-post { background-color: #e03c31; color: white; width: 100%; font-weight: bold; padding: 12px; border: none; }
         .btn-post:hover { background-color: #c43229; color: white; }
     </style>
 </head>
@@ -18,81 +18,86 @@
 <div class="form-container">
     <h2 class="text-center mb-4">Đăng tin rao bán nhà phố</h2>
 
-    <div class="section-title">Thông tin mô tả</div>
-    <div class="mb-3">
-        <label class="form-label">Địa Chỉ </label>
-        <input type="text" class="form-control" placeholder="Nhập địa chỉ">
-    </div>
-    <div class="mb-3">
-    <div class="mb-3">
-        <label class="form-label">Tiêu đề (VD: Bán nhà phố hẻm xe hơi Quận 1 giá cực tốt)</label>
-        <input type="text" class="form-control" placeholder="Nhập tiêu đề bài đăng">
-    </div>
-    <div class="mb-3">
-        <label class="form-label">Nội dung mô tả</label>
-        <textarea class="form-control" rows="5" placeholder="Mô tả chi tiết về vị trí, tiện ích, pháp lý..."></textarea>
-    </div>
+    <form id="postForm">
+        
+        <div class="section-title">Thông tin mô tả</div>
+        <div class="mb-3">
+            <label class="form-label">Địa Chỉ</label>
+            <input type="text" name="address" class="form-control" placeholder="Nhập địa chỉ" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Tiêu đề (VD: Bán nhà phố hẻm xe hơi Quận 1)</label>
+            <input type="text" name="title" class="form-control" placeholder="Nhập tiêu đề bài đăng" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Nội dung mô tả</label>
+            <textarea name="description" class="form-control" rows="5" placeholder="Mô tả chi tiết..."></textarea>
+        </div>
 
-    <div class="section-title">Thông tin bất động sản</div>
-    <div class="row">
-        <div class="col-md-6 mb-3">
-            <label class="form-label">Diện tích (m²)</label>
-            <input type="number" class="form-control" placeholder="VD: 50">
-        </div>
-        <div class="col-md-6 mb-3">
-            <label class="form-label">Mức giá (Tỷ)</label>
-            <input type="text" class="form-control" placeholder="VD: 5.5 tỷ">
-        </div>
-        <div class="col-md-6 mb-3">
-            <label class="form-label">Số phòng ngủ</label>
-            <select class="form-select">
-                <option>Không Xác Định</option>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-                <option>6</option>
+        <div class="section-title">Thông tin bất động sản</div>
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label class="form-label">Diện tích (m²)</label>
+                <input type="number" name="area" class="form-control" placeholder="VD: 50">
+            </div>
+            <div class="col-md-6 mb-3">
+                <label class="form-label">Mức giá (Tỷ)</label>
+                <input type="text" name="price" class="form-control" placeholder="VD: 5.5 tỷ">
+            </div>
+            <div class="col-md-6 mb-3">
+                <label class="form-label">Số phòng ngủ</label>
+                <select name="bedroom" class="form-select">
+                    <option value="Không Xác Định">Không Xác Định</option>
+                    <option value="1">1</option><option value="2">2</option><option value="3">3</option>
+                    <option value="4">4</option><option value="5">5</option>
                 </select>
-            <input type="number" class="form-control" placeholder="VD: 3">
+            </div>
+            <div class="col-md-6 mb-3">
+                <label class="form-label">Hướng nhà</label>
+                <select name="direction" class="form-select">
+                    <option value="Không Xác Định">Không Xác Định</option>
+                    <option value="Đông">Đông</option><option value="Tây">Tây</option>
+                    <option value="Nam">Nam</option><option value="Bắc">Bắc</option>
+                    <option value="Đông Nam">Đông Nam</option>
+                </select>
+            </div>
         </div>
-        <div class="col-md-6 mb-3">
-            <label class="form-label">Hướng nhà</label>
-            <select class="form-select">
-               <option>Không Xác Định</option>
-                <option>Đông</option>
-                <option>Tây</option>
-                <option>Nam</option>
-                <option>Bắc</option>
-                <option>Đông Nam</option><option>Đông Bắc</option><option>Tây Nam</option><option>Tây Bắc</option>
-            </select>
-        </div>
-    </div>
 
-    <div class="section-title">Hình ảnh</div>
-    <div class="mb-4 text-center" style="border: 2px dashed #ccc; padding: 30px; border-radius: 5px;">
-        <input type="file" id="fileInput" multiple style="display: none;">
-        <label for="fileInput" style="cursor: pointer;">
+        <div class="section-title">Hình ảnh (Chỉ để minh họa)</div>
+        <div class="mb-4 text-center" style="border: 2px dashed #ccc; padding: 30px; border-radius: 5px;">
             <span style="font-size: 40px;">📷</span><br>
-            Bấm để tải ảnh lên (Tối đa 10 ảnh)
-        </label>
-    </div>
+            Tính năng tải ảnh lên Sheets cần kỹ thuật cao hơn, hiện tại sẽ chỉ gửi thông tin chữ.
+        </div>
 
-    <button class="btn btn-post">ĐĂNG TIN NGAY</button>
+        <button type="submit" class="btn btn-post" id="submitBtn">ĐĂNG TIN NGAY</button>
+    </form>
 </div>
-
-</body>
-
 
 <script>
     const scriptURL = 'https://script.google.com/macros/s/AKfycbwyRGNw9ckV44RoP8v14OkbW-B2f6AGNOb2cxOoF1bdhM90ikg7LrhiijTN0g2SS0cvsA/exec';
     const form = document.getElementById('postForm');
+    const btn = document.getElementById('submitBtn');
 
     form.addEventListener('submit', e => {
         e.preventDefault();
+        btn.disabled = true;
+        btn.innerHTML = "Đang gửi...";
+
         fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => alert("Đăng tin thành công! ."))
-            .catch(error => console.error('Lỗi!', error.message));
+            .then(response => {
+                alert("Đăng tin thành công!");
+                btn.disabled = false;
+                btn.innerHTML = "ĐĂNG TIN NGAY";
+                form.reset(); // Xóa dữ liệu form sau khi gửi xong
+            })
+            .catch(error => {
+                console.error('Lỗi!', error.message);
+                alert("Có lỗi xảy ra, vui lòng thử lại.");
+                btn.disabled = false;
+                btn.innerHTML = "ĐĂNG TIN NGAY";
+            });
     });
 </script>
+
+</body>
 </html>
