@@ -100,7 +100,7 @@
 </div>
 
 <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbytJa0szz1iyjd9cApwRglNMcXTFIYgTsDYP7BCnOE0k-2vZVHVMFNUBkfu2S8Zq30QMw/exec';
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzTNb6D7xVsFl-HgImpxgbpq3Wukrblr6jyZja3X0JeVfUYOqSTGvVikph41scgIW4wWg/exec';
     const form = document.getElementById('postForm');
     const btn = document.getElementById('submitBtn');
 
@@ -111,7 +111,7 @@
 
         fetch(scriptURL, { method: 'POST', body: new FormData(form)})
             .then(response => {
-                alert("Đăng tin thành công lên Google Sheets!");
+                alert("Đăng tin thành công !");
                 btn.disabled = false;
                 btn.innerHTML = "ĐĂNG TIN NGAY";
                 form.reset();
