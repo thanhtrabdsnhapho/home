@@ -16,16 +16,13 @@
     --muted: #888;
     --border: #e0e0e0;
   }
-
   * { box-sizing: border-box; }
-
   body {
     background-color: var(--bg);
     padding: 30px 15px;
     font-family: 'Be Vietnam Pro', sans-serif;
     color: var(--text);
   }
-
   .form-container {
     background: var(--card);
     padding: 36px;
@@ -34,7 +31,6 @@
     max-width: 820px;
     margin: auto;
   }
-
   .page-title {
     text-align: center;
     font-size: 1.6rem;
@@ -42,14 +38,12 @@
     margin-bottom: 6px;
     color: var(--text);
   }
-
   .page-subtitle {
     text-align: center;
     color: var(--muted);
     font-size: 0.9rem;
     margin-bottom: 32px;
   }
-
   .section-title {
     border-left: 4px solid var(--primary);
     padding-left: 12px;
@@ -59,14 +53,12 @@
     font-size: 1rem;
     color: var(--text);
   }
-
   .form-label {
     font-weight: 600;
     font-size: 0.85rem;
     margin-bottom: 5px;
     color: #444;
   }
-
   .form-control, .form-select {
     border: 1.5px solid var(--border);
     border-radius: 8px;
@@ -75,14 +67,11 @@
     font-family: 'Be Vietnam Pro', sans-serif;
     transition: border-color 0.2s;
   }
-
   .form-control:focus, .form-select:focus {
     border-color: var(--primary);
     box-shadow: 0 0 0 3px rgba(224,60,49,0.1);
     outline: none;
   }
-
-  /* Upload Zone */
   .upload-zone {
     border: 2px dashed var(--border);
     border-radius: 10px;
@@ -92,26 +81,20 @@
     transition: all 0.2s;
     background: #fafafa;
   }
-
   .upload-zone:hover, .upload-zone.dragover {
     border-color: var(--primary);
     background: #fff5f5;
   }
-
   .upload-zone .upload-icon { font-size: 2.5rem; margin-bottom: 8px; }
   .upload-zone p { margin: 0; color: var(--muted); font-size: 0.88rem; }
   .upload-zone strong { color: var(--primary); }
-
   #imageInput { display: none; }
-
-  /* Preview Grid */
   #previewContainer {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     margin-top: 14px;
   }
-
   .preview-item {
     position: relative;
     width: 90px;
@@ -121,19 +104,16 @@
     border: 2px solid var(--border);
     animation: fadeIn 0.3s ease;
   }
-
   @keyframes fadeIn {
     from { opacity: 0; transform: scale(0.9); }
     to { opacity: 1; transform: scale(1); }
   }
-
   .preview-item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
   }
-
   .preview-item .remove-btn {
     position: absolute;
     top: 3px;
@@ -145,45 +125,37 @@
     width: 20px;
     height: 20px;
     font-size: 12px;
-    line-height: 20px;
-    text-align: center;
     cursor: pointer;
     padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-
   .preview-item .remove-btn:hover { background: var(--primary); }
-
   .image-count {
     font-size: 0.82rem;
     color: var(--muted);
     margin-top: 8px;
   }
-
   .image-count span { color: var(--primary); font-weight: 600; }
-
-  /* Progress */
-  #uploadProgress {
+  .file-warning {
+    font-size: 0.8rem;
+    color: #e67e22;
+    margin-top: 4px;
     display: none;
-    margin-top: 10px;
   }
-
+  #uploadProgress { display: none; margin-top: 10px; }
   .progress {
     height: 6px;
     border-radius: 3px;
     background: #eee;
     overflow: hidden;
   }
-
   .progress-bar {
     background: var(--primary);
     height: 100%;
     transition: width 0.3s ease;
   }
-
-  /* Submit Button */
   .btn-post {
     background-color: var(--primary);
     color: white;
@@ -199,19 +171,15 @@
     transition: background 0.2s, transform 0.1s;
     letter-spacing: 0.5px;
   }
-
   .btn-post:hover { background-color: var(--primary-dark); }
   .btn-post:active { transform: scale(0.99); }
   .btn-post:disabled { background: #ccc; cursor: not-allowed; }
-
-  /* Toast */
   .toast-wrap {
     position: fixed;
     top: 20px;
     right: 20px;
     z-index: 9999;
   }
-
   .toast-msg {
     background: #2c2c2c;
     color: white;
@@ -222,15 +190,12 @@
     animation: slideIn 0.3s ease;
     margin-bottom: 8px;
   }
-
   .toast-msg.success { background: #27ae60; }
   .toast-msg.error { background: var(--primary); }
-
   @keyframes slideIn {
     from { opacity: 0; transform: translateX(30px); }
     to { opacity: 1; transform: translateX(0); }
   }
-
   @media (max-width: 600px) {
     .form-container { padding: 20px; }
   }
@@ -277,6 +242,18 @@
       <div class="col-md-4 mb-3">
         <label class="form-label">Mức giá (Tỷ)</label>
         <input type="text" name="price" class="form-control" placeholder="5.5">
+      </div>
+      <div class="col-md-4 mb-3">
+        <label class="form-label">Số tầng</label>
+        <select name="sotang" class="form-select">
+          <option value="Không Xác Định">Chọn số tầng</option>
+          <option value="1">1 tầng</option>
+          <option value="2">2 tầng</option>
+          <option value="3">3 tầng</option>
+          <option value="4">4 tầng</option>
+          <option value="5">5 tầng</option>
+          <option value="6+">Trên 6 tầng</option>
+        </select>
       </div>
       <div class="col-md-4 mb-3">
         <label class="form-label">Số phòng ngủ</label>
@@ -335,16 +312,17 @@
     <div class="upload-zone" id="uploadZone" onclick="document.getElementById('imageInput').click()">
       <div class="upload-icon">📷</div>
       <p><strong>Nhấn để chọn ảnh</strong> hoặc kéo thả vào đây</p>
-      <p style="margin-top:4px;">Hỗ trợ JPG, PNG, WEBP — Tối đa 10 ảnh</p>
+      <p style="margin-top:4px;">Hỗ trợ JPG, PNG, WEBP — Tối đa 10 ảnh — Mỗi ảnh tối đa 5MB</p>
     </div>
 
     <input type="file" id="imageInput" accept="image/*" multiple>
 
     <div id="previewContainer"></div>
     <p class="image-count" id="imageCount" style="display:none;">Đã chọn <span id="countNum">0</span>/10 ảnh</p>
+    <p class="file-warning" id="fileWarning">⚠️ Một số ảnh vượt quá 5MB đã bị bỏ qua.</p>
 
     <div id="uploadProgress">
-      <p style="font-size:0.85rem; color:var(--muted); margin-bottom:5px;">Đang tải ảnh lên Google Drive...</p>
+      <p style="font-size:0.85rem; color:var(--muted); margin-bottom:5px;">Đang tải ảnh lên Google Drive... <span id="progressText">0%</span></p>
       <div class="progress"><div class="progress-bar" id="progressBar" style="width:0%"></div></div>
     </div>
 
@@ -356,6 +334,7 @@
 // ========== CẤU HÌNH ==========
 const scriptURL = 'https://script.google.com/macros/s/AKfycbzTNb6D7xVsFl-HgImpxgbpq3Wukrblr6jyZja3X0JeVfUYOqSTGvVikph41scgIW4wWg/exec';
 const MAX_IMAGES = 10;
+const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB
 
 // ========== BIẾN ==========
 let selectedFiles = [];
@@ -366,6 +345,7 @@ const previewContainer = document.getElementById('previewContainer');
 const uploadZone = document.getElementById('uploadZone');
 const imageCount = document.getElementById('imageCount');
 const countNum = document.getElementById('countNum');
+const fileWarning = document.getElementById('fileWarning');
 
 // ========== TOAST ==========
 function showToast(msg, type = '') {
@@ -402,17 +382,29 @@ function removeImage(idx) {
   renderPreviews();
 }
 
-// ========== CHỌN ẢNH ==========
-imageInput.addEventListener('change', function () {
-  const newFiles = Array.from(this.files);
-  const combined = [...selectedFiles, ...newFiles];
+// ========== LỌC VÀ THÊM FILE ==========
+function addFiles(newFiles) {
+  // Lọc file quá lớn
+  const validFiles = newFiles.filter(f => f.size <= MAX_FILE_SIZE);
+  const oversized = newFiles.length - validFiles.length;
+  if (oversized > 0) {
+    fileWarning.style.display = 'block';
+    setTimeout(() => fileWarning.style.display = 'none', 4000);
+  }
+
+  const combined = [...selectedFiles, ...validFiles];
   if (combined.length > MAX_IMAGES) {
-    showToast(`Chỉ được chọn tối đa ${MAX_IMAGES} ảnh!`, 'error');
+    showToast('Chỉ được chọn tối đa ' + MAX_IMAGES + ' anh!', 'error');
     selectedFiles = combined.slice(0, MAX_IMAGES);
   } else {
     selectedFiles = combined;
   }
   renderPreviews();
+}
+
+// ========== CHỌN ẢNH ==========
+imageInput.addEventListener('change', function () {
+  addFiles(Array.from(this.files));
   this.value = '';
 });
 
@@ -423,14 +415,7 @@ uploadZone.addEventListener('drop', e => {
   e.preventDefault();
   uploadZone.classList.remove('dragover');
   const droppedFiles = Array.from(e.dataTransfer.files).filter(f => f.type.startsWith('image/'));
-  const combined = [...selectedFiles, ...droppedFiles];
-  if (combined.length > MAX_IMAGES) {
-    showToast(`Chỉ được tối đa ${MAX_IMAGES} ảnh!`, 'error');
-    selectedFiles = combined.slice(0, MAX_IMAGES);
-  } else {
-    selectedFiles = combined;
-  }
-  renderPreviews();
+  addFiles(droppedFiles);
 });
 
 // ========== CHUYỂN BASE64 ==========
@@ -453,9 +438,9 @@ form.addEventListener('submit', async e => {
   const data = {};
   formData.forEach((v, k) => data[k] = v);
 
-  // Xử lý ảnh
   const images = [];
   const progressBar = document.getElementById('progressBar');
+  const progressText = document.getElementById('progressText');
   const uploadProgress = document.getElementById('uploadProgress');
 
   if (selectedFiles.length > 0) {
@@ -466,6 +451,7 @@ form.addEventListener('submit', async e => {
       images.push({ name: file.name, data: base64, type: file.type });
       const pct = Math.round(((i + 1) / selectedFiles.length) * 100);
       progressBar.style.width = pct + '%';
+      progressText.textContent = pct + '%';
     }
   }
 
@@ -474,8 +460,9 @@ form.addEventListener('submit', async e => {
   fetch(scriptURL, {
     method: 'POST',
     body: JSON.stringify(data),
-    headers: { 'Content-Type': 'application/json' }
+    headers: { 'Content-Type': 'text/plain' } // text/plain tránh CORS preflight
   })
+  .then(res => res.text())
   .then(() => {
     showToast('✅ Đăng tin thành công!', 'success');
     btn.disabled = false;
@@ -486,6 +473,7 @@ form.addEventListener('submit', async e => {
     imageCount.style.display = 'none';
     uploadProgress.style.display = 'none';
     progressBar.style.width = '0%';
+    progressText.textContent = '0%';
   })
   .catch(() => {
     showToast('❌ Lỗi kết nối! Vui lòng thử lại.', 'error');
