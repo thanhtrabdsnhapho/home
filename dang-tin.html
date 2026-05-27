@@ -202,8 +202,8 @@
 
   /* AI Box */
   .ai-box {
-    background: linear-gradient(135deg, #fff8f0, #fff0f0);
-    border: 1.5px solid #f0c080;
+    background: linear-gradient(135deg, #f0f7ff, #e8f4ff);
+    border: 1.5px solid #90c8f0;
     border-radius: 10px;
     padding: 16px;
   }
@@ -215,10 +215,10 @@
     flex-wrap: wrap;
     gap: 6px;
   }
-  .ai-box-header span { font-weight: 700; color: #b8600a; font-size: 0.95rem; }
+  .ai-box-header span { font-weight: 700; color: #1a6fa8; font-size: 0.95rem; }
   .ai-box-header small { color: var(--muted); font-size: 0.8rem; }
   .btn-ai {
-    background: linear-gradient(135deg, #f39c12, #e67e22);
+    background: linear-gradient(135deg, #2980b9, #1a6fa8);
     color: white;
     border: none;
     border-radius: 8px;
@@ -230,12 +230,11 @@
     transition: all 0.2s;
     width: 100%;
   }
-  .btn-ai:hover { background: linear-gradient(135deg, #e67e22, #d35400); transform: translateY(-1px); }
+  .btn-ai:hover { background: linear-gradient(135deg, #1a6fa8, #145a86); transform: translateY(-1px); }
   .btn-ai:disabled { background: #ccc; cursor: not-allowed; transform: none; }
   .ai-note { font-size: 0.82rem; margin-top: 8px; margin-bottom: 0; padding: 8px 12px; border-radius: 6px; }
   .ai-note.success { background: #eafaf1; color: #27ae60; }
   .ai-note.error { background: #fdf0f0; color: var(--primary); }
-
 </style>
 </head>
 <body>
@@ -342,11 +341,11 @@
 
     <div class="ai-box mb-3">
       <div class="ai-box-header">
-        <span>✨ Gemini AI tự động điền thông tin</span>
+        <span>🤖 Groq AI tự động điền thông tin</span>
         <small>Paste bài đăng bên trên rồi nhấn nút</small>
       </div>
-      <button type="button" class="btn-ai" id="btnAI" onclick="generateWithGemini()">
-        <span id="aiIcon">✨</span> Phân tích & Điền tự động
+      <button type="button" class="btn-ai" id="btnAI" onclick="analyzeWithAI()">
+        <span id="aiIcon">🤖</span> Phân tích & Điền tự động
       </button>
       <p class="ai-note" id="aiNote" style="display:none;"></p>
     </div>
@@ -438,17 +437,15 @@ function removeImage(idx) {
 
 // ========== LỌC VÀ THÊM FILE ==========
 function addFiles(newFiles) {
-  // Lọc file quá lớn
   const validFiles = newFiles.filter(f => f.size <= MAX_FILE_SIZE);
   const oversized = newFiles.length - validFiles.length;
   if (oversized > 0) {
     fileWarning.style.display = 'block';
     setTimeout(() => fileWarning.style.display = 'none', 4000);
   }
-
   const combined = [...selectedFiles, ...validFiles];
   if (combined.length > MAX_IMAGES) {
-    showToast('Chỉ được chọn tối đa ' + MAX_IMAGES + ' anh!', 'error');
+    showToast('Chỉ được chọn tối đa ' + MAX_IMAGES + ' ảnh!', 'error');
     selectedFiles = combined.slice(0, MAX_IMAGES);
   } else {
     selectedFiles = combined;
@@ -514,7 +511,7 @@ form.addEventListener('submit', async e => {
   fetch(scriptURL, {
     method: 'POST',
     body: JSON.stringify(data),
-    headers: { 'Content-Type': 'text/plain' } // text/plain tránh CORS preflight
+    headers: { 'Content-Type': 'text/plain' }
   })
   .then(res => res.text())
   .then(() => {
@@ -537,12 +534,9 @@ form.addEventListener('submit', async e => {
   });
 });
 
-
-// ========== GEMINI AI ==========
-const GEMINI_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=' + GEMINI_KEY;
-
-async function generateWithGemini() {
-  const btn    = document.getElementById('btnAI');
+// ========== GROQ AI ==========
+async function analyzeWithAI() {
+  const btnAI  = document.getElementById('btnAI');
   const aiNote = document.getElementById('aiNote');
   const rawText = document.getElementById('rawInput').value.trim();
 
@@ -553,8 +547,8 @@ async function generateWithGemini() {
     return;
   }
 
-  btn.disabled = true;
-  btn.innerHTML = '⏳ Đang phân tích...';
+  btnAI.disabled = true;
+  btnAI.innerHTML = '⏳ Đang phân tích...';
   aiNote.style.display = 'none';
 
   try {
@@ -570,7 +564,6 @@ async function generateWithGemini() {
 
     const p = result.data;
 
-    // Điền vào các ô text/number
     if (p.sonha)     document.querySelector('[name=sonha]').value     = p.sonha;
     if (p.duongpho)  document.querySelector('[name=duongpho]').value  = p.duongpho;
     if (p.phuongxa)  document.querySelector('[name=phuongxa]').value  = p.phuongxa;
@@ -580,22 +573,18 @@ async function generateWithGemini() {
     if (p.tieu_de)   document.getElementById('titleInput').value      = p.tieu_de;
     if (p.mo_ta)     document.getElementById('descInput').value       = p.mo_ta;
 
-    // Điền dropdown số tầng
     if (p.sotang) {
       const el = document.querySelector('[name=sotang]');
       for (let o of el.options) if (o.value == p.sotang) { el.value = p.sotang; break; }
     }
-    // Điền dropdown phòng ngủ
     if (p.bedroom) {
       const el = document.querySelector('[name=bedroom]');
       for (let o of el.options) if (o.value == p.bedroom) { el.value = p.bedroom; break; }
     }
-    // Điền dropdown WC
     if (p.nhavesinh) {
       const el = document.querySelector('[name=nhavesinh]');
       for (let o of el.options) if (o.value == p.nhavesinh) { el.value = p.nhavesinh; break; }
     }
-    // Điền dropdown hướng
     if (p.direction) {
       const el = document.querySelector('[name=direction]');
       for (let o of el.options) if (o.value === p.direction) { el.value = p.direction; break; }
@@ -612,10 +601,9 @@ async function generateWithGemini() {
     aiNote.style.display = 'block';
   }
 
-  btn.disabled = false;
-  btn.innerHTML = '✨ Phân tích & Điền tự động';
+  btnAI.disabled = false;
+  btnAI.innerHTML = '🤖 Phân tích & Điền tự động';
 }
-
 </script>
 
 </body>
