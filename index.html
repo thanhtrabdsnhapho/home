@@ -349,30 +349,41 @@ function resetFilter() {
   applyFilter();
 }
 // ===== LOAD DỮ LIỆU =====
+// ===== LOAD DỮ LIỆU TỐI ƯU =====
 async function loadProducts() {
   const container = document.getElementById('product-list');
+  if (!container) return;
+  
   try {
-    const res  = await fetch(sheetUrl);
-    const text = await res.text();
+    // Gọi API song song với quá trình chuẩn bị giao diện
+    const response = await fetch(sheetUrl, { method: 'GET', mode: 'cors' });
+    if (!response.ok) throw new Error('Network response was not ok');
+    
+    const text = await response.text();
     const rows = parseGviz(text);
-    container.innerHTML = '';
+    
     if (rows.length === 0) {
       container.innerHTML = '<div class="no-data w-100"><i class="fas fa-inbox fa-3x mb-3 d-block"></i>Hiện chưa có sản phẩm nào.</div>';
       return;
     }
+
+    // Tạo chuỗi HTML lớn một lần duy nhất thay vì cộng chuỗi liên tục vào DOM
+    let htmlContent = '';
     rows.forEach((cols, idx) => {
       if (cols.length >= 8) {
-        container.innerHTML += createCard(cols, idx);
+        htmlContent += createCard(cols, idx);
       }
     });
+    
+    container.innerHTML = htmlContent;
     allProducts = rows;
     document.getElementById('result-count').textContent = `Hiển thị ${rows.length} sản phẩm`;
+    
   } catch (err) {
     console.error('Lỗi load dữ liệu:', err);
     container.innerHTML = '<div class="no-data w-100"><i class="fas fa-exclamation-circle fa-3x mb-3 d-block text-danger"></i>Không thể tải dữ liệu. Vui lòng thử lại sau.</div>';
   }
 }
-window.addEventListener('DOMContentLoaded', loadProducts);
 </script>
 </body>
 </html>
