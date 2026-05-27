@@ -336,14 +336,14 @@
     <div class="section-title">✏️ Nội dung tin đăng</div>
 
     <div class="mb-3">
-      <label class="form-label">Nhập nội dung thô <span style="color:var(--muted);font-weight:400;">(VD: bán nhà lò lu q9 50m2 1 trệt 2 lầu 3pn 4wc giá 5.5 tỷ)</span></label>
-      <textarea id="rawInput" class="form-control" rows="3" placeholder="Gõ tóm tắt thông tin nhà vào đây, AI sẽ tự điền các ô bên trên..."></textarea>
+      <label class="form-label">📋 Paste nội dung bài đăng vào đây <span style="color:var(--muted);font-weight:400;">(copy từ Zalo, Facebook, tin nhắn...)</span></label>
+      <textarea id="rawInput" class="form-control" rows="6" placeholder="Dán nội dung bài đăng vào đây&#10;VD:&#10;KÝ CHÍNH CHỦ&#10;Bán căn hộ Masteri Q9 đường D1, phường Long Bình...&#10;- Giá: 5.1 tỷ&#10;- Diện tích: 74m²&#10;- 2PN - 2WC&#10;..."></textarea>
     </div>
 
     <div class="ai-box mb-3">
       <div class="ai-box-header">
         <span>✨ Gemini AI tự động điền thông tin</span>
-        <small>Nhập nội dung thô bên trên rồi nhấn nút</small>
+        <small>Paste bài đăng bên trên rồi nhấn nút</small>
       </div>
       <button type="button" class="btn-ai" id="btnAI" onclick="generateWithGemini()">
         <span id="aiIcon">✨</span> Phân tích & Điền tự động
@@ -386,7 +386,7 @@
 
 <script>
 // ========== CẤU HÌNH ==========
-const scriptURL = 'https://script.google.com/macros/s/AKfycbyNTAfvvqbFErWQtwe4z8tRwuPBvl6_Q35CmbeGptya_UXkQXfVGllvz8nw4qd9qpPlxA/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbz3n8CxxPxnkGi81BtpnZ74YbK8BImEJ8aIy580pwmPZCPqAl-fi5pGsZ2GYAlM3YGqDg/exec';
 const MAX_IMAGES = 10;
 const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB
 
@@ -539,17 +539,16 @@ form.addEventListener('submit', async e => {
 
 
 // ========== GEMINI AI ==========
-const GEMINI_KEY = 'AIzaSyC1C6ER_8xApLNTBLhYB9IQC_nCAyYecJs';
 const GEMINI_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=' + GEMINI_KEY;
 
 async function generateWithGemini() {
-  const btn     = document.getElementById('btnAI');
-  const aiNote  = document.getElementById('aiNote');
+  const btn    = document.getElementById('btnAI');
+  const aiNote = document.getElementById('aiNote');
   const rawText = document.getElementById('rawInput').value.trim();
 
   if (!rawText) {
     aiNote.className = 'ai-note error';
-    aiNote.textContent = '⚠️ Vui lòng nhập nội dung thô trước khi phân tích!';
+    aiNote.textContent = '⚠️ Vui lòng paste nội dung bài đăng trước!';
     aiNote.style.display = 'block';
     return;
   }
@@ -558,78 +557,48 @@ async function generateWithGemini() {
   btn.innerHTML = '⏳ Đang phân tích...';
   aiNote.style.display = 'none';
 
-  const prompt = `Bạn là chuyên gia bất động sản Việt Nam. Hãy đọc đoạn mô tả thô sau và trích xuất thông tin, sau đó viết tiêu đề + mô tả hấp dẫn.
-
-Nội dung thô: "${rawText}"
-
-Trả về JSON đúng định dạng sau, KHÔNG thêm bất kỳ text nào khác:
-{
-  "sonha": "số nhà, để trống nếu không có",
-  "duongpho": "tên đường hoặc hẻm, không ghi chữ Đường",
-  "phuongxa": "phường hoặc xã",
-  "tinhthanh": "quận/huyện và tỉnh/thành phố",
-  "area": "diện tích dạng số, chỉ ghi số",
-  "price": "giá dạng số thập phân, chỉ ghi số VD: 5.5",
-  "sotang": "số tầng dạng số, chỉ ghi số",
-  "bedroom": "số phòng ngủ dạng số, chỉ ghi số",
-  "nhavesinh": "số WC dạng số, chỉ ghi số",
-  "direction": "hướng nhà: Đông/Tây/Nam/Bắc/Đông Nam/Tây Nam/Đông Bắc/Tây Bắc, để trống nếu không có",
-  "tieu_de": "tiêu đề rao bán hấp dẫn dưới 100 ký tự",
-  "mo_ta": "mô tả 4-6 câu nêu bật vị trí, diện tích, tiện ích, pháp lý, phù hợp đăng tin bất động sản"
-}`;
-
   try {
-    const res = await fetch(GEMINI_URL, {
+    const res = await fetch(scriptURL, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        contents: [{ parts: [{ text: prompt }] }],
-        generationConfig: { temperature: 0.4, maxOutputTokens: 800 }
-      })
+      headers: { 'Content-Type': 'text/plain' },
+      body: JSON.stringify({ action: 'analyze', text: rawText })
     });
 
-    const data = await res.json();
-    const text = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
-    const clean = text.replace(/```json|```/g, '').trim();
-    const p = JSON.parse(clean);
+    const result = await res.json();
 
-    // Điền vào các ô form
-    if (p.sonha)      document.querySelector('[name=sonha]').value      = p.sonha;
-    if (p.duongpho)   document.querySelector('[name=duongpho]').value   = p.duongpho;
-    if (p.phuongxa)   document.querySelector('[name=phuongxa]').value   = p.phuongxa;
-    if (p.tinhthanh)  document.querySelector('[name=tinhthanh]').value  = p.tinhthanh;
-    if (p.area)       document.querySelector('[name=area]').value       = p.area;
-    if (p.price)      document.querySelector('[name=price]').value      = p.price;
-    if (p.tieu_de)    document.getElementById('titleInput').value       = p.tieu_de;
-    if (p.mo_ta)      document.getElementById('descInput').value        = p.mo_ta;
+    if (result.status !== 'ok') throw new Error(result.message || 'Lỗi không xác định');
+
+    const p = result.data;
+
+    // Điền vào các ô text/number
+    if (p.sonha)     document.querySelector('[name=sonha]').value     = p.sonha;
+    if (p.duongpho)  document.querySelector('[name=duongpho]').value  = p.duongpho;
+    if (p.phuongxa)  document.querySelector('[name=phuongxa]').value  = p.phuongxa;
+    if (p.tinhthanh) document.querySelector('[name=tinhthanh]').value = p.tinhthanh;
+    if (p.area)      document.querySelector('[name=area]').value      = p.area;
+    if (p.price)     document.querySelector('[name=price]').value     = p.price;
+    if (p.tieu_de)   document.getElementById('titleInput').value      = p.tieu_de;
+    if (p.mo_ta)     document.getElementById('descInput').value       = p.mo_ta;
 
     // Điền dropdown số tầng
     if (p.sotang) {
-      const tangEl = document.querySelector('[name=sotang]');
-      for (let opt of tangEl.options) {
-        if (opt.value == p.sotang) { tangEl.value = p.sotang; break; }
-      }
+      const el = document.querySelector('[name=sotang]');
+      for (let o of el.options) if (o.value == p.sotang) { el.value = p.sotang; break; }
     }
     // Điền dropdown phòng ngủ
     if (p.bedroom) {
-      const bedEl = document.querySelector('[name=bedroom]');
-      for (let opt of bedEl.options) {
-        if (opt.value == p.bedroom) { bedEl.value = p.bedroom; break; }
-      }
+      const el = document.querySelector('[name=bedroom]');
+      for (let o of el.options) if (o.value == p.bedroom) { el.value = p.bedroom; break; }
     }
     // Điền dropdown WC
     if (p.nhavesinh) {
-      const wcEl = document.querySelector('[name=nhavesinh]');
-      for (let opt of wcEl.options) {
-        if (opt.value == p.nhavesinh) { wcEl.value = p.nhavesinh; break; }
-      }
+      const el = document.querySelector('[name=nhavesinh]');
+      for (let o of el.options) if (o.value == p.nhavesinh) { el.value = p.nhavesinh; break; }
     }
     // Điền dropdown hướng
     if (p.direction) {
-      const dirEl = document.querySelector('[name=direction]');
-      for (let opt of dirEl.options) {
-        if (opt.value === p.direction) { dirEl.value = p.direction; break; }
-      }
+      const el = document.querySelector('[name=direction]');
+      for (let o of el.options) if (o.value === p.direction) { el.value = p.direction; break; }
     }
 
     aiNote.className = 'ai-note success';
@@ -639,7 +608,7 @@ Trả về JSON đúng định dạng sau, KHÔNG thêm bất kỳ text nào kh�
   } catch(err) {
     console.error(err);
     aiNote.className = 'ai-note error';
-    aiNote.textContent = '❌ Lỗi phân tích. Vui lòng thử lại!';
+    aiNote.textContent = '❌ Lỗi: ' + err.message;
     aiNote.style.display = 'block';
   }
 
