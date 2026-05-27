@@ -199,6 +199,43 @@
   @media (max-width: 600px) {
     .form-container { padding: 20px; }
   }
+
+  /* AI Box */
+  .ai-box {
+    background: linear-gradient(135deg, #fff8f0, #fff0f0);
+    border: 1.5px solid #f0c080;
+    border-radius: 10px;
+    padding: 16px;
+  }
+  .ai-box-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .ai-box-header span { font-weight: 700; color: #b8600a; font-size: 0.95rem; }
+  .ai-box-header small { color: var(--muted); font-size: 0.8rem; }
+  .btn-ai {
+    background: linear-gradient(135deg, #f39c12, #e67e22);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    cursor: pointer;
+    transition: all 0.2s;
+    width: 100%;
+  }
+  .btn-ai:hover { background: linear-gradient(135deg, #e67e22, #d35400); transform: translateY(-1px); }
+  .btn-ai:disabled { background: #ccc; cursor: not-allowed; transform: none; }
+  .ai-note { font-size: 0.82rem; margin-top: 8px; margin-bottom: 0; padding: 8px 12px; border-radius: 6px; }
+  .ai-note.success { background: #eafaf1; color: #27ae60; }
+  .ai-note.error { background: #fdf0f0; color: var(--primary); }
+
 </style>
 </head>
 <body>
@@ -297,13 +334,30 @@
 
     <!-- NỘI DUNG -->
     <div class="section-title">✏️ Nội dung tin đăng</div>
+
+    <div class="mb-3">
+      <label class="form-label">Nhập nội dung thô <span style="color:var(--muted);font-weight:400;">(VD: bán nhà lò lu q9 50m2 1 trệt 2 lầu 3pn 4wc giá 5.5 tỷ)</span></label>
+      <textarea id="rawInput" class="form-control" rows="3" placeholder="Gõ tóm tắt thông tin nhà vào đây, AI sẽ tự điền các ô bên trên..."></textarea>
+    </div>
+
+    <div class="ai-box mb-3">
+      <div class="ai-box-header">
+        <span>✨ Gemini AI tự động điền thông tin</span>
+        <small>Nhập nội dung thô bên trên rồi nhấn nút</small>
+      </div>
+      <button type="button" class="btn-ai" id="btnAI" onclick="generateWithGemini()">
+        <span id="aiIcon">✨</span> Phân tích & Điền tự động
+      </button>
+      <p class="ai-note" id="aiNote" style="display:none;"></p>
+    </div>
+
     <div class="mb-3">
       <label class="form-label">Tiêu đề bài viết</label>
-      <input type="text" name="title" class="form-control" placeholder="VD: Bán nhà phố hẻm xe hơi Quận 9" required>
+      <input type="text" name="title" id="titleInput" class="form-control" placeholder="AI sẽ tự điền sau khi phân tích" required>
     </div>
     <div class="mb-3">
       <label class="form-label">Nội dung mô tả chi tiết</label>
-      <textarea name="description" class="form-control" rows="5" placeholder="Mô tả ưu điểm, pháp lý, tiện ích xung quanh..."></textarea>
+      <textarea name="description" id="descInput" class="form-control" rows="5" placeholder="AI sẽ tự viết mô tả hấp dẫn..."></textarea>
     </div>
 
     <!-- HÌNH ẢNH -->
@@ -482,6 +536,117 @@ form.addEventListener('submit', async e => {
     uploadProgress.style.display = 'none';
   });
 });
+
+
+// ========== GEMINI AI ==========
+const GEMINI_KEY = 'AIzaSyC1C6ER_8xApLNTBLhYB9IQC_nCAyYecJs';
+const GEMINI_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=' + GEMINI_KEY;
+
+async function generateWithGemini() {
+  const btn     = document.getElementById('btnAI');
+  const aiNote  = document.getElementById('aiNote');
+  const rawText = document.getElementById('rawInput').value.trim();
+
+  if (!rawText) {
+    aiNote.className = 'ai-note error';
+    aiNote.textContent = '⚠️ Vui lòng nhập nội dung thô trước khi phân tích!';
+    aiNote.style.display = 'block';
+    return;
+  }
+
+  btn.disabled = true;
+  btn.innerHTML = '⏳ Đang phân tích...';
+  aiNote.style.display = 'none';
+
+  const prompt = `Bạn là chuyên gia bất động sản Việt Nam. Hãy đọc đoạn mô tả thô sau và trích xuất thông tin, sau đó viết tiêu đề + mô tả hấp dẫn.
+
+Nội dung thô: "${rawText}"
+
+Trả về JSON đúng định dạng sau, KHÔNG thêm bất kỳ text nào khác:
+{
+  "sonha": "số nhà, để trống nếu không có",
+  "duongpho": "tên đường hoặc hẻm, không ghi chữ Đường",
+  "phuongxa": "phường hoặc xã",
+  "tinhthanh": "quận/huyện và tỉnh/thành phố",
+  "area": "diện tích dạng số, chỉ ghi số",
+  "price": "giá dạng số thập phân, chỉ ghi số VD: 5.5",
+  "sotang": "số tầng dạng số, chỉ ghi số",
+  "bedroom": "số phòng ngủ dạng số, chỉ ghi số",
+  "nhavesinh": "số WC dạng số, chỉ ghi số",
+  "direction": "hướng nhà: Đông/Tây/Nam/Bắc/Đông Nam/Tây Nam/Đông Bắc/Tây Bắc, để trống nếu không có",
+  "tieu_de": "tiêu đề rao bán hấp dẫn dưới 100 ký tự",
+  "mo_ta": "mô tả 4-6 câu nêu bật vị trí, diện tích, tiện ích, pháp lý, phù hợp đăng tin bất động sản"
+}`;
+
+  try {
+    const res = await fetch(GEMINI_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        contents: [{ parts: [{ text: prompt }] }],
+        generationConfig: { temperature: 0.4, maxOutputTokens: 800 }
+      })
+    });
+
+    const data = await res.json();
+    const text = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
+    const clean = text.replace(/```json|```/g, '').trim();
+    const p = JSON.parse(clean);
+
+    // Điền vào các ô form
+    if (p.sonha)      document.querySelector('[name=sonha]').value      = p.sonha;
+    if (p.duongpho)   document.querySelector('[name=duongpho]').value   = p.duongpho;
+    if (p.phuongxa)   document.querySelector('[name=phuongxa]').value   = p.phuongxa;
+    if (p.tinhthanh)  document.querySelector('[name=tinhthanh]').value  = p.tinhthanh;
+    if (p.area)       document.querySelector('[name=area]').value       = p.area;
+    if (p.price)      document.querySelector('[name=price]').value      = p.price;
+    if (p.tieu_de)    document.getElementById('titleInput').value       = p.tieu_de;
+    if (p.mo_ta)      document.getElementById('descInput').value        = p.mo_ta;
+
+    // Điền dropdown số tầng
+    if (p.sotang) {
+      const tangEl = document.querySelector('[name=sotang]');
+      for (let opt of tangEl.options) {
+        if (opt.value == p.sotang) { tangEl.value = p.sotang; break; }
+      }
+    }
+    // Điền dropdown phòng ngủ
+    if (p.bedroom) {
+      const bedEl = document.querySelector('[name=bedroom]');
+      for (let opt of bedEl.options) {
+        if (opt.value == p.bedroom) { bedEl.value = p.bedroom; break; }
+      }
+    }
+    // Điền dropdown WC
+    if (p.nhavesinh) {
+      const wcEl = document.querySelector('[name=nhavesinh]');
+      for (let opt of wcEl.options) {
+        if (opt.value == p.nhavesinh) { wcEl.value = p.nhavesinh; break; }
+      }
+    }
+    // Điền dropdown hướng
+    if (p.direction) {
+      const dirEl = document.querySelector('[name=direction]');
+      for (let opt of dirEl.options) {
+        if (opt.value === p.direction) { dirEl.value = p.direction; break; }
+      }
+    }
+
+    aiNote.className = 'ai-note success';
+    aiNote.textContent = '✅ AI đã điền xong! Kiểm tra và chỉnh sửa lại nếu cần.';
+    aiNote.style.display = 'block';
+
+  } catch(err) {
+    console.error(err);
+    aiNote.className = 'ai-note error';
+    aiNote.textContent = '❌ Lỗi phân tích. Vui lòng thử lại!';
+    aiNote.style.display = 'block';
+  }
+
+  btn.disabled = false;
+  btn.innerHTML = '✨ Phân tích & Điền tự động';
+}
+
 </script>
 
 </body>
