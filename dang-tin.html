@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Đăng bài - Thanh Tra BĐS</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -200,10 +201,32 @@
     .form-container { padding: 20px; }
   }
 
-  /* AI Box */
+  .btn-back {
+    display: inline-flex;
+    align-items: center;
+    color: var(--text);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.88rem;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: #f5f6f7;
+    border: 1px solid var(--border);
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 24px;
+  }
+  .btn-back:hover {
+    background: #ffffff;
+    color: var(--primary);
+    border-color: var(--primary);
+    box-shadow: 0 4px 12px rgba(224, 60, 49, 0.12);
+    transform: translateX(-2px);
+  }
+
+  /* GitHub AI Box */
   .ai-box {
-    background: linear-gradient(135deg, #f0f7ff, #e8f4ff);
-    border: 1.5px solid #90c8f0;
+    background: linear-gradient(135deg, #f6f8fa, #edf2f7);
+    border: 1.5px solid #d0d7de;
     border-radius: 10px;
     padding: 16px;
   }
@@ -215,10 +238,10 @@
     flex-wrap: wrap;
     gap: 6px;
   }
-  .ai-box-header span { font-weight: 700; color: #1a6fa8; font-size: 0.95rem; }
+  .ai-box-header span { font-weight: 700; color: #24292f; font-size: 0.95rem; }
   .ai-box-header small { color: var(--muted); font-size: 0.8rem; }
   .btn-ai {
-    background: linear-gradient(135deg, #2980b9, #1a6fa8);
+    background: linear-gradient(135deg, #24292f, #0969da);
     color: white;
     border: none;
     border-radius: 8px;
@@ -230,7 +253,7 @@
     transition: all 0.2s;
     width: 100%;
   }
-  .btn-ai:hover { background: linear-gradient(135deg, #1a6fa8, #145a86); transform: translateY(-1px); }
+  .btn-ai:hover { background: linear-gradient(135deg, #1f2328, #0550ae); transform: translateY(-1px); }
   .btn-ai:disabled { background: #ccc; cursor: not-allowed; transform: none; }
   .ai-note { font-size: 0.82rem; margin-top: 8px; margin-bottom: 0; padding: 8px 12px; border-radius: 6px; }
   .ai-note.success { background: #eafaf1; color: #27ae60; }
@@ -242,6 +265,10 @@
 <div class="toast-wrap" id="toastWrap"></div>
 
 <div class="form-container">
+  <a href="index.html" class="btn-back">
+    <i class="fas fa-arrow-left me-2"></i> Quay lại trang chủ
+  </a>
+
   <h2 class="page-title">📋 Đăng tin rao bán nhà phố</h2>
   <p class="page-subtitle">Điền đầy đủ thông tin để tin đăng hiệu quả hơn</p>
 
@@ -336,27 +363,28 @@
 
     <div class="mb-3">
       <label class="form-label">📋 Paste nội dung bài đăng vào đây <span style="color:var(--muted);font-weight:400;">(copy từ Zalo, Facebook, tin nhắn...)</span></label>
-      <textarea id="rawInput" class="form-control" rows="6" placeholder="Dán nội dung bài đăng vào đây&#10;VD:&#10;Bán căn hộ Masteri Q9 đường D1, phường Long Bình...&#10;- Giá: 5.1 tỷ&#10;- Diện tích: 74m²&#10;- 2PN - 2WC&#10;..."></textarea>
+      <textarea id="rawInput" name="rawText" class="form-control" rows="6" placeholder="Dán nội dung bài đăng vào đây&#10;VD:&#10;Bán căn hộ Masteri Q9 đường D1, phường Long Bình...&#10;- Giá: 5.1 tỷ&#10;- Diện tích: 74m²&#10;- 2PN - 2WC&#10;..."></textarea>
     </div>
 
+    <!-- GitHub AI Container -->
     <div class="ai-box mb-3">
       <div class="ai-box-header">
-        <span>🤖 Groq AI tự động điền thông tin</span>
-        <small>Paste bài đăng bên trên rồi nhấn nút</small>
+        <span>🤖 GitHub AI tự động điền thông tin (GPT-4o-mini)</span>
+        <small>Dán nội dung bài đăng bên trên rồi nhấn nút bên dưới</small>
       </div>
       <button type="button" class="btn-ai" id="btnAI" onclick="analyzeWithAI()">
-        <span id="aiIcon">🤖</span> Phân tích & Điền tự động
+        <span id="aiIcon">🤖</span> Phân tích & Điền tự động với GitHub AI
       </button>
       <p class="ai-note" id="aiNote" style="display:none;"></p>
     </div>
 
     <div class="mb-3">
       <label class="form-label">Tiêu đề bài viết</label>
-      <input type="text" name="title" id="titleInput" class="form-control" placeholder="AI sẽ tự điền sau khi phân tích" required>
+      <input type="text" name="tieu_de" id="titleInput" class="form-control" placeholder="AI sẽ tự điền sau khi phân tích" required>
     </div>
     <div class="mb-3">
       <label class="form-label">Nội dung mô tả chi tiết</label>
-      <textarea name="description" id="descInput" class="form-control" rows="5" placeholder="AI sẽ tự viết mô tả hấp dẫn..."></textarea>
+      <textarea name="mo_ta" id="descInput" class="form-control" rows="5" placeholder="AI sẽ tự viết mô tả hấp dẫn..."></textarea>
     </div>
 
     <!-- HÌNH ẢNH -->
@@ -375,7 +403,7 @@
     <p class="file-warning" id="fileWarning">⚠️ Một số ảnh vượt quá 5MB đã bị bỏ qua.</p>
 
     <div id="uploadProgress">
-      <p style="font-size:0.85rem; color:var(--muted); margin-bottom:5px;">Đang tải ảnh lên Google Drive... <span id="progressText">0%</span></p>
+      <p style="font-size:0.85rem; color:var(--muted); margin-bottom:5px;">Đang tải ảnh lên GitHub... <span id="progressText">0%</span></p>
       <div class="progress"><div class="progress-bar" id="progressBar" style="width:0%"></div></div>
     </div>
 
@@ -384,13 +412,16 @@
 </div>
 
 <script>
-// ========== CẤU HÌNH ==========
-const scriptURL = 'https://script.google.com/macros/s/AKfycbyQn4QRfrEaTm-x_AqWbaF-eeRaE0i8mypiqmu9NOhXPmgR4oVbMNC0DFaIdae1Cz_IWA/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwMHChxlCNW1H8LPkMNzm1VDOmx6fpOspAoyhbSqd0Rix9dryUl0esAuLTJpk5v8nch/exec'; 
 const MAX_IMAGES = 10;
-const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB
+const MAX_FILE_SIZE = 5 * 1024 * 1024;
 
-// ========== BIẾN ==========
 let selectedFiles = [];
+let isEditMode = false;
+let editProductId = "";
+let editPassword = "";
+let existingImages = []; // Danh sách ảnh đã lưu từ trước
+
 const form = document.getElementById('postForm');
 const btn = document.getElementById('submitBtn');
 const imageInput = document.getElementById('imageInput');
@@ -400,7 +431,7 @@ const imageCount = document.getElementById('imageCount');
 const countNum = document.getElementById('countNum');
 const fileWarning = document.getElementById('fileWarning');
 
-// ========== TOAST ==========
+// ========== THÔNG BÁO GIAO DIỆN ==========
 function showToast(msg, type = '') {
   const wrap = document.getElementById('toastWrap');
   const toast = document.createElement('div');
@@ -410,24 +441,106 @@ function showToast(msg, type = '') {
   setTimeout(() => toast.remove(), 3500);
 }
 
-// ========== XEM TRƯỚC ẢNH ==========
+// ========== KHỞI TẠO VÀ TẢI DỮ LIỆU CHỈNH SỬA (NẾU CÓ) ==========
+window.addEventListener('DOMContentLoaded', async () => {
+  const urlParams = new URLSearchParams(window.location.search);
+  const id = urlParams.get('id');
+  const pwd = urlParams.get('pwd');
+  
+  if (id && pwd) {
+    isEditMode = true;
+    editProductId = id;
+    editPassword = pwd;
+    
+    document.querySelector('.page-title').textContent = "✏️ Chỉnh sửa tin đăng bất động sản";
+    document.querySelector('.page-subtitle').textContent = "Cập nhật lại các thông số và lưu trực tiếp lên GitHub";
+    btn.innerHTML = "🚀 CẬP NHẬT TIN ĐĂNG NGAY";
+    
+    showToast("⏳ Đang tải nội dung tin đăng cũ...", "success");
+    
+    try {
+      // Đọc file data/products.json trực tiếp từ github pages để bóc tách thông số
+      const res = await fetch("data/products.json", { cache: 'no-cache' });
+      if (!res.ok) throw new Error("Không thể tải file dữ liệu!");
+      const products = await res.json();
+      const p = products.find(item => item.id === id);
+      
+      if (p) {
+        // Đổ thông tin vào form
+        if (p.sonha)     document.querySelector('[name=sonha]').value     = p.sonha;
+        if (p.duongpho)  document.querySelector('[name=duongpho]').value  = p.duongpho;
+        if (p.phuongxa)  document.querySelector('[name=phuongxa]').value  = p.phuongxa;
+        if (p.tinhthanh) document.querySelector('[name=tinhthanh]').value = p.tinhthanh;
+        if (p.area)      document.querySelector('[name=area]').value      = p.area;
+        if (p.price)     document.querySelector('[name=price]').value     = p.price;
+        if (p.tieu_de)   document.getElementById('titleInput').value      = p.tieu_de;
+        if (p.mo_ta)     document.getElementById('descInput').value       = p.mo_ta;
+        
+        if (p.sotang) {
+          const el = document.querySelector('[name=sotang]');
+          for (let o of el.options) if (o.value == p.sotang) { el.value = p.sotang; break; }
+        }
+        if (p.bedroom) {
+          const el = document.querySelector('[name=bedroom]');
+          for (let o of el.options) if (o.value == p.bedroom) { el.value = p.bedroom; break; }
+        }
+        if (p.nhavesinh) {
+          const el = document.querySelector('[name=nhavesinh]');
+          for (let o of el.options) if (o.value == p.nhavesinh) { el.value = p.nhavesinh; break; }
+        }
+        if (p.direction) {
+          const el = document.querySelector('[name=direction]');
+          for (let o of el.options) if (o.value === p.direction) { el.value = p.direction; break; }
+        }
+        
+        // Hiển thị các hình ảnh cũ có sẵn
+        if (Array.isArray(p.images)) {
+          existingImages = p.images;
+        }
+        renderPreviews();
+      } else {
+        showToast("❌ Không tìm thấy thông tin sản phẩm này!", "error");
+      }
+    } catch (err) {
+      console.error(err);
+      showToast("❌ Không thể nạp dữ liệu cũ để chỉnh sửa!", "error");
+    }
+  }
+});
+
+// ========== HIỂN THỊ HÌNH ẢNH CHỌN TRƯỚC ==========
 function renderPreviews() {
   previewContainer.innerHTML = '';
+  
+  // 1. Render các ảnh cũ có sẵn
+  existingImages.forEach((url, idx) => {
+    const item = document.createElement('div');
+    item.className = 'preview-item';
+    item.innerHTML = `
+      <img src="${url}" alt="Ảnh cũ ${idx+1}">
+      <button type="button" class="remove-btn" onclick="removeExistingImage(${idx})">✕</button>
+    `;
+    previewContainer.appendChild(item);
+  });
+  
+  // 2. Render các ảnh mới chọn thêm
   selectedFiles.forEach((file, idx) => {
     const reader = new FileReader();
     reader.onload = e => {
       const item = document.createElement('div');
       item.className = 'preview-item';
       item.innerHTML = `
-        <img src="${e.target.result}" alt="Ảnh ${idx+1}">
-        <button class="remove-btn" onclick="removeImage(${idx})">✕</button>
+        <img src="${e.target.result}" alt="Ảnh mới ${idx+1}">
+        <button type="button" class="remove-btn" onclick="removeImage(${idx})">✕</button>
       `;
       previewContainer.appendChild(item);
     };
     reader.readAsDataURL(file);
   });
-  imageCount.style.display = selectedFiles.length > 0 ? 'block' : 'none';
-  countNum.textContent = selectedFiles.length;
+  
+  const totalCount = existingImages.length + selectedFiles.length;
+  imageCount.style.display = totalCount > 0 ? 'block' : 'none';
+  countNum.textContent = totalCount;
 }
 
 function removeImage(idx) {
@@ -435,7 +548,12 @@ function removeImage(idx) {
   renderPreviews();
 }
 
-// ========== LỌC VÀ THÊM FILE ==========
+function removeExistingImage(idx) {
+  existingImages.splice(idx, 1);
+  renderPreviews();
+}
+
+// ========== KIỂM TRA FILE KÍCH THƯỚC ==========
 function addFiles(newFiles) {
   const validFiles = newFiles.filter(f => f.size <= MAX_FILE_SIZE);
   const oversized = newFiles.length - validFiles.length;
@@ -444,22 +562,21 @@ function addFiles(newFiles) {
     setTimeout(() => fileWarning.style.display = 'none', 4000);
   }
   const combined = [...selectedFiles, ...validFiles];
-  if (combined.length > MAX_IMAGES) {
-    showToast('Chỉ được chọn tối đa ' + MAX_IMAGES + ' ảnh!', 'error');
-    selectedFiles = combined.slice(0, MAX_IMAGES);
+  if (combined.length + existingImages.length > MAX_IMAGES) {
+    showToast('Tổng số ảnh cũ và mới không được quá ' + MAX_IMAGES + ' ảnh!', 'error');
+    selectedFiles = combined.slice(0, MAX_IMAGES - existingImages.length);
   } else {
     selectedFiles = combined;
   }
   renderPreviews();
 }
 
-// ========== CHỌN ẢNH ==========
 imageInput.addEventListener('change', function () {
   addFiles(Array.from(this.files));
   this.value = '';
 });
 
-// ========== DRAG & DROP ==========
+// ========== KÉO THẢ ẢNH ==========
 uploadZone.addEventListener('dragover', e => { e.preventDefault(); uploadZone.classList.add('dragover'); });
 uploadZone.addEventListener('dragleave', () => uploadZone.classList.remove('dragover'));
 uploadZone.addEventListener('drop', e => {
@@ -469,7 +586,6 @@ uploadZone.addEventListener('drop', e => {
   addFiles(droppedFiles);
 });
 
-// ========== CHUYỂN BASE64 ==========
 function toBase64(file) {
   return new Promise((resolve, reject) => {
     const reader = new FileReader();
@@ -479,11 +595,11 @@ function toBase64(file) {
   });
 }
 
-// ========== GỬI FORM ==========
+// ========== GỬI DỮ LIỆU ĐĂNG BÀI/CHỈNH SỬA ĐẾN GOOGLE APPS SCRIPT (GITHUB PROXY) ==========
 form.addEventListener('submit', async e => {
   e.preventDefault();
   btn.disabled = true;
-  btn.innerHTML = '⏳ Đang xử lý...';
+  btn.innerHTML = '⏳ Đang xử lý dữ liệu và cập nhật lên GitHub...';
 
   const formData = new FormData(form);
   const data = {};
@@ -508,33 +624,55 @@ form.addEventListener('submit', async e => {
 
   data.images = JSON.stringify(images);
 
+  // Kích hoạt Payload xử lý Sửa tin gửi sang GAS trung chuyển
+  if (isEditMode) {
+    data.action = 'edit';
+    data.id = editProductId;
+    data.password = editPassword;
+    data.existingImages = JSON.stringify(existingImages);
+  }
+
   fetch(scriptURL, {
     method: 'POST',
     body: JSON.stringify(data),
     headers: { 'Content-Type': 'text/plain' }
   })
-  .then(res => res.text())
-  .then(() => {
-    showToast('✅ Đăng tin thành công!', 'success');
+  .then(res => res.json())
+  .then(result => {
+    if(result.status === 'ok') {
+      showToast(isEditMode ? '✅ Đã lưu cập nhật thành công!' : '✅ Đăng tin lên GitHub thành công!', 'success');
+      
+      if (isEditMode) {
+        // Tự động chuyển về trang chủ sau 2 giây chỉnh sửa
+        setTimeout(() => {
+          window.location.href = "index.html";
+        }, 2000);
+      } else {
+        form.reset();
+        selectedFiles = [];
+        existingImages = [];
+        previewContainer.innerHTML = '';
+        imageCount.style.display = 'none';
+        uploadProgress.style.display = 'none';
+        progressBar.style.width = '0%';
+        progressText.textContent = '0%';
+      }
+    } else {
+      showToast('❌ Lỗi từ hệ thống: ' + result.message, 'error');
+    }
     btn.disabled = false;
-    btn.innerHTML = '🚀 ĐĂNG TIN NGAY';
-    form.reset();
-    selectedFiles = [];
-    previewContainer.innerHTML = '';
-    imageCount.style.display = 'none';
-    uploadProgress.style.display = 'none';
-    progressBar.style.width = '0%';
-    progressText.textContent = '0%';
+    btn.innerHTML = isEditMode ? '🚀 CẬP NHẬT TIN ĐĂNG NGAY' : '🚀 ĐĂNG TIN NGAY';
   })
-  .catch(() => {
-    showToast('❌ Lỗi kết nối! Vui lòng thử lại.', 'error');
+  .catch((err) => {
+    console.error(err);
+    showToast('❌ Lỗi kết nối hoặc cấu hình Script! Vui lòng kiểm tra lại.', 'error');
     btn.disabled = false;
-    btn.innerHTML = '🚀 ĐĂNG TIN NGAY';
+    btn.innerHTML = isEditMode ? '🚀 CẬP NHẬT TIN ĐĂNG NGAY' : '🚀 ĐĂNG TIN NGAY';
     uploadProgress.style.display = 'none';
   });
 });
 
-// ========== GROQ AI ==========
+// ========== KÍCH HOẠT PHÂN TÍCH GITHUB AI (GPT-4O-MINI) ==========
 async function analyzeWithAI() {
   const btnAI  = document.getElementById('btnAI');
   const aiNote = document.getElementById('aiNote');
@@ -542,28 +680,28 @@ async function analyzeWithAI() {
 
   if (!rawText) {
     aiNote.className = 'ai-note error';
-    aiNote.textContent = '⚠️ Vui lòng paste nội dung bài đăng trước!';
+    aiNote.textContent = '⚠️ Vui lòng dán (paste) nội dung bài đăng trước!';
     aiNote.style.display = 'block';
     return;
   }
 
   btnAI.disabled = true;
-  btnAI.innerHTML = '⏳ Đang phân tích...';
+  btnAI.innerHTML = '⏳ GitHub AI đang phân tích dữ liệu bất động sản...';
   aiNote.style.display = 'none';
 
   try {
     const res = await fetch(scriptURL, {
       method: 'POST',
-      headers: { 'Content-Type': 'text/plain' },
-      body: JSON.stringify({ action: 'analyze', text: rawText })
+      body: JSON.stringify({ action: 'analyze', text: rawText }),
+      headers: { 'Content-Type': 'text/plain' }
     });
 
     const result = await res.json();
-
-    if (result.status !== 'ok') throw new Error(result.message || 'Lỗi không xác định');
-
+    if (result.status !== 'ok') throw new Error(result.message || 'Lỗi không xác định từ GitHub AI');
+    
     const p = result.data;
 
+    // Đổ dữ liệu phân tích chuẩn hóa vào các ô Input
     if (p.sonha)     document.querySelector('[name=sonha]').value     = p.sonha;
     if (p.duongpho)  document.querySelector('[name=duongpho]').value  = p.duongpho;
     if (p.phuongxa)  document.querySelector('[name=phuongxa]').value  = p.phuongxa;
@@ -573,6 +711,7 @@ async function analyzeWithAI() {
     if (p.tieu_de)   document.getElementById('titleInput').value      = p.tieu_de;
     if (p.mo_ta)     document.getElementById('descInput').value       = p.mo_ta;
 
+    // Đồng bộ các thanh chọn Dropdown
     if (p.sotang) {
       const el = document.querySelector('[name=sotang]');
       for (let o of el.options) if (o.value == p.sotang) { el.value = p.sotang; break; }
@@ -591,20 +730,19 @@ async function analyzeWithAI() {
     }
 
     aiNote.className = 'ai-note success';
-    aiNote.textContent = '✅ AI đã điền xong! Kiểm tra và chỉnh sửa lại nếu cần.';
+    aiNote.textContent = '✅ GitHub AI đã xử lý và tự động điền xong! Vui lòng kiểm tra lại.';
     aiNote.style.display = 'block';
 
   } catch(err) {
     console.error(err);
     aiNote.className = 'ai-note error';
-    aiNote.textContent = '❌ Lỗi: ' + err.message;
+    aiNote.textContent = '❌ Lỗi phân tích: ' + err.message;
     aiNote.style.display = 'block';
   }
 
   btnAI.disabled = false;
-  btnAI.innerHTML = '🤖 Phân tích & Điền tự động';
+  btnAI.innerHTML = '🤖 Phân tích & Điền tự động với GitHub AI';
 }
 </script>
-
 </body>
 </html>
