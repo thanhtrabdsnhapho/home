@@ -1,5 +1,27 @@
 [
   {
+    "id": "prod_1780049824621",
+    "sonha": "",
+    "duongpho": "Đường số 12",
+    "phuongxa": "Long Phước",
+    "tinhthanh": "Quận 9",
+    "area": "73",
+    "price": "4.5",
+    "sotang": "1",
+    "bedroom": "Không Xác Định",
+    "nhavesinh": "Không Xác Định",
+    "direction": "Tây Bắc",
+    "tieu_de": "ĐẤT 2 MẶT TIỀN ĐƯỜNG NHỰA 7M TẠI QUẬN 9",
+    "mo_ta": "Đất 2 mặt tiền, khu phân lô đường nhựa 7m, đơn giá 63tr/m². Sổ vuông đẹp, công nhận đủ 73m², đang vay ngân hàng cần hỗ trợ rút sổ. Lợi thế 2 mặt tiền, 2 mặt hẻm nhựa xe hơi chạy vù vù. Khu vực được xây dựng 1 trệt 2 lầu, phù hợp cho khách xây ở hoặc xây cho thuê.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780049819705_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780049821279_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780049822710_2.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T10:17:04.621Z"
+  },
+  {
     "id": "prod_1780049721531",
     "sonha": "",
     "duongpho": "Đường 49",
