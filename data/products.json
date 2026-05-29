@@ -1,5 +1,28 @@
 [
   {
+    "id": "prod_1780042670839",
+    "sonha": "",
+    "duongpho": "Trương Hạnh",
+    "phuongxa": "Long Thạnh Mỹ",
+    "tinhthanh": "TP.Thủ Đức",
+    "area": "126",
+    "price": "6.1",
+    "sotang": "1",
+    "bedroom": "2",
+    "nhavesinh": "1",
+    "direction": "Không Xác Định",
+    "tieu_de": "NHÀ CẤP 4 MẶT TIỀN ĐƯỜNG XE TẢI TẠI LONG THẠNH MỸ",
+    "mo_ta": "Vị trí: Nhà Cấp 4 mặt tiền đường, xe tải phường Long Thạnh Mỹ, Tp.Thủ Đức, Hiện trạng: Căn nhà cấp 4, 2 PN, sân trước sau, giếng trời, Pháp lý: Sổ hồng riêng, Diện tích: 4.15x30 công nhận 126 m² thổ cư full, Giá: 8.3 tỷ thương lượng, Hỗ trợ thủ tục vay ngân hàng nhanh gọn và chuyên nghiệp.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042664926_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042666362_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042667692_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042669012_3.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T08:17:50.839Z"
+  },
+  {
     "id": "prod_1780042481853",
     "sonha": "",
     "duongpho": "Trường Lưu",
