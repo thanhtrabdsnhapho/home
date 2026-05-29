@@ -1,5 +1,32 @@
 [
   {
+    "id": "prod_1780038856337",
+    "sonha": "",
+    "duongpho": "Trường Lưu",
+    "phuongxa": "Long Trường",
+    "tinhthanh": "Quận 9",
+    "area": "54",
+    "price": "5.95",
+    "sotang": "3",
+    "bedroom": "4",
+    "nhavesinh": "4",
+    "direction": "Không Xác Định",
+    "tieu_de": "NHÀ MỚI 3 TẦNG SÁT KDC ĐÔNG TĂNG LONG - TIỆN NGHI ĐẦY ĐỦ",
+    "mo_ta": "Nhà 3 Tầng sân thượng Đầy đủ nội thất cơ bản.Nhà mới xây chưa ở, hoàn công đầy đủ.4 PN 4 WC sân thượng trước sau.Kế kdc Đông Tăng Long.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780038846422_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780038847535_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780038848680_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780038849882_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780038850972_4.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780038852197_5.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780038853314_6.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780038855058_7.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T07:14:16.337Z"
+  },
+  {
     "id": "prod_1780038766290",
     "sonha": "",
     "duongpho": "Võ Văn Hát",
