@@ -1,5 +1,27 @@
 [
   {
+    "id": "prod_1780041097633",
+    "sonha": "",
+    "duongpho": "Số 3",
+    "phuongxa": "Trường Thạnh",
+    "tinhthanh": "Quận 9",
+    "area": "139",
+    "price": "3.9",
+    "sotang": "1",
+    "bedroom": "Không Xác Định",
+    "nhavesinh": "Không Xác Định",
+    "direction": "Đông",
+    "tieu_de": "BÁN GẤP ĐẤT ĐẸP GẦN LÒ LU - GIÁ TỐT CHO NHÀ ĐẦU TƯ",
+    "mo_ta": "Lô đất vuông vức 7×22m, nằm trong khu dân cư hiện hữu, an ninh. Xung quanh đầy đủ tiện ích: trường mầm non, tiểu học, THCS, THPT trong bán kính gần, sinh hoạt rất thuận tiện.Vị trí tiềm năng nhờ trục Lò Lu đang mở rộng, phù hợp xây nhà ở, CHDV, trọ mini hoặc đầu tư giữ tiền chờ tăng giá.Pháp lý rõ ràng: sổ hồng riêng, không quy hoạch. Đang gửi bank 2 tỷ, pháp lý an tâm. hẻm xe máy.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041094350_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041095367_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041096393_2.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T07:51:37.633Z"
+  },
+  {
     "id": "prod_1780041012354",
     "sonha": "",
     "duongpho": "Đường 102",
