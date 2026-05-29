@@ -1,5 +1,27 @@
 [
   {
+    "id": "prod_1780041012354",
+    "sonha": "",
+    "duongpho": "Đường 102",
+    "phuongxa": "Tăng Nhơn Phú A",
+    "tinhthanh": "Quận 9",
+    "area": "97",
+    "price": "6.25",
+    "sotang": "1",
+    "bedroom": "Không Xác Định",
+    "nhavesinh": "Không Xác Định",
+    "direction": "Tây Bắc",
+    "tieu_de": "BÁN LÔ ĐẤT SIÊU ĐẸP TẠI QUẬN 9, HẺM XE HƠI THÔNG",
+    "mo_ta": "Chủ gấp bán lô đất siêu đẹp hẻm xe hơi thông, diện tích 97m2, ngang 4,4m x 22,6m vuông vức. Xung quanh dân trí văn minh, sạch đẹp, hẻm nhựa thông. Phù hợp xây ở, CHDV hoặc mua đầu tư lâu dài. Gần Lã Xuân Oai, Lê Văn Việt, đường Đình Phong Phú, khu công nghệ cao, gần chợ và nhiều trường Đại học, Cao đẳng.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041007416_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041008788_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041010187_2.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T07:50:12.354Z"
+  },
+  {
     "id": "prod_1780040818251",
     "sonha": "",
     "duongpho": "Đường 6",
