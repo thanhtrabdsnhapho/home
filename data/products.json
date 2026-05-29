@@ -1,5 +1,30 @@
 [
   {
+    "id": "prod_1780040283875",
+    "sonha": "",
+    "duongpho": "Lã Xuân Oai",
+    "phuongxa": "Long Trường",
+    "tinhthanh": "Quận 9",
+    "area": "50",
+    "price": "6.6",
+    "sotang": "3",
+    "bedroom": "3",
+    "nhavesinh": "4",
+    "direction": "Không Xác Định",
+    "tieu_de": "NHÀ MỚI XÂY 3 TẦNG TẠI QUẬN 9 GIÁ CHỈ 6.6 TỶ",
+    "mo_ta": "Nhà xây mới đang hoàn thiện, chủ bàn giao hoàn công đủ. Nhà 3 tầng với 3 phòng ngủ và 4 nhà vệ sinh đầy đủ công năng. Giá 6.6 tỷ - bớt lộc may mắn.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040277189_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040278307_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040279399_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040280648_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040281678_4.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040282618_5.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T07:38:03.875Z"
+  },
+  {
     "id": "prod_1780040168285",
     "sonha": "",
     "duongpho": "Tam Đa",
