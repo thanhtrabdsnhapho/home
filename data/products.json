@@ -1,5 +1,29 @@
 [
   {
+    "id": "prod_1780045855349",
+    "sonha": "",
+    "duongpho": "Đình Phong Phú",
+    "phuongxa": "Tăng Nhơn Phú B",
+    "tinhthanh": "Thủ Đức",
+    "area": "75",
+    "price": "8.2",
+    "sotang": "5",
+    "bedroom": "5",
+    "nhavesinh": "5",
+    "direction": "Không Xác Định",
+    "tieu_de": "BÁN NHÀ Ô TÔ THÔNG 5 TẦNG TẠI TĂNG NHƠN PHÚ B",
+    "mo_ta": "BÁN GẤP NHÀ HẺM Ô TÔ THÔNG NGỦ TRONG NHÀ 5 TẦNG Đ. ĐÌNH PHONG PHÚ - DT 4X19 75m2 CN 66m2 1 trệt 3 lầu, 1 Tum 5pn, 5wc, 3 sân thượng, PK, Bếp, Sân để ô tô. Vị trí tiện duy chuyển các hướng. Không quy hoạch mồ mã. 2 căn liền kề, thông số như nhau, giá như nhau.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780045848906_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780045850228_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780045851446_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780045852593_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780045853824_4.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T09:10:55.349Z"
+  },
+  {
     "id": "prod_1780045710842",
     "sonha": "26.12B",
     "duongpho": "Đường 26",
