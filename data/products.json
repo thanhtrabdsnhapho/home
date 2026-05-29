@@ -1,5 +1,30 @@
 [
   {
+    "id": "prod_1780049721531",
+    "sonha": "",
+    "duongpho": "Đường 49",
+    "phuongxa": "Phước Long B",
+    "tinhthanh": "Quận 9",
+    "area": "110",
+    "price": "19.8",
+    "sotang": "3",
+    "bedroom": "5",
+    "nhavesinh": "3",
+    "direction": "Đông Bắc",
+    "tieu_de": "BIỆT THỰ LÔ GÓC SIÊU ĐẸP TẠI KDC NAM LONG",
+    "mo_ta": "+ Kết cấu 1 trệt, 2 lầu, sổ vuông vức, nở hậu nhẹ, gồm 5PN, 3WC, sân thượng, giếng trời thoáng mát,...+ Khu dân cư cao cấp, an ninh, yên tĩnh.+ Vị trí tiềm năng phát triển mạnh, gần Vành Đai 2, cao tốc Long Thành - Dầu Giây thuận tiện di chuyển,...+ Nhà mới dọn vào ở ngay.+ Pháp lý chuẩn, sẵn sàng công chứng mua bán ngay.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780049714094_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780049715338_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780049716614_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780049717739_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780049718815_4.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780049720043_5.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T10:15:21.531Z"
+  },
+  {
     "id": "prod_1780045982421",
     "sonha": "",
     "duongpho": "Đường số 4",
