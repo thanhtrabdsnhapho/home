@@ -1,5 +1,26 @@
 [
   {
+    "id": "prod_1780051081421",
+    "sonha": "",
+    "duongpho": "Đường 182",
+    "phuongxa": "Tăng Nhơn Phú A",
+    "tinhthanh": "TP. Hồ Chí Minh",
+    "area": "122",
+    "price": "10.8",
+    "sotang": "1",
+    "bedroom": "2",
+    "nhavesinh": "2",
+    "direction": "Không Xác Định",
+    "tieu_de": "ĐẤT NỀN VUÔNG VỨC TẠI TĂNG NHƠN PHÚ A, QUẬN 9, TP. HCM",
+    "mo_ta": "Vị trí: Phường Tăng Nhơn Phú A, Quận 9 (nay là TP. Thủ Đức), TP. Hồ Chí Minh. \nTổng diện tích: 122m2. Thửa đất số 661: 110.4m2 là đất ở tại đô thị (Sử dụng lâu dài). \nThửa đất số 662: 11.5m2 là đất trồng cây lâu năm (Thời hạn đến năm 2062). \nHình dáng: Đất vuông vức, chiều dài cạnh lớn, cực kỳ thoáng đãng để thiết kế sân vườn hoặc gara. \nPháp lý: Sổ hồng riêng, pháp lý chuẩn.\n Khu vực trung tâm: Tăng Nhơn Phú A là một trong những phường sầm uất nhất Quận 9 cũ, gần Khu Công Nghệ Cao, Đại học Giao Thông Vận Tải (Cơ sở 2) và Lê Văn Việt.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780051078814_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780051080100_1.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T10:38:01.421Z"
+  },
+  {
     "id": "prod_1780050941207",
     "sonha": "",
     "duongpho": "102",
