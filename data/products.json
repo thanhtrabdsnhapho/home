@@ -1,5 +1,32 @@
 [
   {
+    "id": "prod_1780042403675",
+    "sonha": "",
+    "duongpho": "Gò Cát",
+    "phuongxa": "Long Trường",
+    "tinhthanh": "Quận 9",
+    "area": "82",
+    "price": "7.3",
+    "sotang": "2",
+    "bedroom": "3",
+    "nhavesinh": "4",
+    "direction": "Không Xác Định",
+    "tieu_de": "MẶT TIỀN KINH DOANH GÒ CÁT - CƠ HỘI ĐẦU TƯ HẤP DẪN",
+    "mo_ta": "Nhà mặt tiền Gò Cát, diện tích 82.5m2, kết cấu 2 tầng với 3 phòng ngủ và 2 WC. Vị trí thuận lợi, vừa ở vừa kinh doanh, cách mặt tiền Nguyễn Duy Trinh chỉ 200m. Đây là cơ hội lý tưởng cho những ai muốn đầu tư vào bất động sản tại khu vực phát triển nhanh chóng này.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042392926_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042394357_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042395585_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042396843_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042397931_4.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042399925_5.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042401142_6.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042402388_7.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T08:13:23.675Z"
+  },
+  {
     "id": "prod_1780042305238",
     "sonha": "",
     "duongpho": "Đường 102 ",
