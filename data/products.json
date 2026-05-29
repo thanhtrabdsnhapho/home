@@ -1,5 +1,26 @@
 [
   {
+    "id": "prod_1780041204063",
+    "sonha": "",
+    "duongpho": "Trường Lưu",
+    "phuongxa": "Long Trường",
+    "tinhthanh": "TP Hồ Chí Minh",
+    "area": "70",
+    "price": "3.9",
+    "sotang": "2",
+    "bedroom": "3",
+    "nhavesinh": "1",
+    "direction": "Đông",
+    "tieu_de": "CĂN NHÀ ĐẸP TẠI TRƯỜNG LƯU, QUẬN 9, GIÁ HỢP LÝ",
+    "mo_ta": "Khu phân lô đường Trường Lưu, đường trước nhà 8m có vỉa hè.Căn cuối hẻm, xe ô tô đỗ ngày đêm.Diện tích: 70.5m² (ngang 4.05m nở hậu khoảng 8m, dài 13.2m).Kết cấu gồm: 1 trệt 1 lầu, công năng gồm: PK, Bếp, 3PN, 1WC.Hiện tại nhà đang cho thuê 6tr/tháng.Hướng: Đông.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041201554_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041202658_1.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T07:53:24.063Z"
+  },
+  {
     "id": "prod_1780041097633",
     "sonha": "",
     "duongpho": "Số 3",
