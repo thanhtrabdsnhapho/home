@@ -1,5 +1,30 @@
 [
   {
+    "id": "prod_1780043883553",
+    "sonha": "",
+    "duongpho": "Làng Tăng Phú ",
+    "phuongxa": "Tăng Nhơn Phú",
+    "tinhthanh": "Quận 9",
+    "area": "50",
+    "price": "6.4",
+    "sotang": "2",
+    "bedroom": "2",
+    "nhavesinh": "2",
+    "direction": "Tây",
+    "tieu_de": "NHÀ NGON HẺM XE HƠI TRÁNH NHAU GẦN LÊ VĂN VIỆT",
+    "mo_ta": "Vị trí gần đường Lê Văn Việt, khu dân cư đông đúc, tiện ích đầy đủ, di chuyển thuận tiện. Hẻm xe hơi rộng, ô tô tránh nhau thoải mái, hẻm siêu đẹp, sạch sẽ, an ninh. Diện tích 50m² (4 x 13) vuông vức, không lỗi phong thủy. Kết cấu 2 tầng với 2 phòng ngủ và 2 WC. Nhà mới, thiết kế hiện đại, nội thất cao cấp, vào ở ngay. Pháp lý sổ riêng, hỗ trợ vay 200 triệu.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043875129_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043876425_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043877815_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043879142_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043880433_4.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043881809_5.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T08:38:03.553Z"
+  },
+  {
     "id": "prod_1780043736321",
     "sonha": "",
     "duongpho": "Nguyễn Xiển",
