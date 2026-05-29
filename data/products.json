@@ -1,5 +1,28 @@
 [
   {
+    "id": "prod_1780045594431",
+    "sonha": "39.48.5.6",
+    "duongpho": "Đường số 102",
+    "phuongxa": "Tăng Nhơn Phú A",
+    "tinhthanh": "Quận 9",
+    "area": "80",
+    "price": "8.5",
+    "sotang": "2",
+    "bedroom": "2",
+    "nhavesinh": "2",
+    "direction": "Không Xác Định",
+    "tieu_de": "CĂN NHÀ ĐẸP TẠI QUẬN 9, DIỆN TÍCH 80M2, GIÁ CHỈ 8.5 TỶ",
+    "mo_ta": "Diện tích 80m2 (6x14). Kết cấu 1 trệt 1 lầu (2PN, 2WC). Vị trí khu dân cư hiện hữu, an ninh, dân trí cao. Xe hơi ngủ trong nhà. Đường trước nhà 6m. Pháp lý chuẩn, sổ tại gia, công chứng ngay.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780045589143_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780045590424_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780045591624_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780045592720_3.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T09:06:34.431Z"
+  },
+  {
     "id": "prod_1780045442360",
     "sonha": "",
     "duongpho": "đường số 385",
