@@ -1,5 +1,33 @@
 [
   {
+    "id": "prod_1780042950872",
+    "sonha": "",
+    "duongpho": "Đường 26",
+    "phuongxa": "Tăng Nhơn Phú",
+    "tinhthanh": "Quận 9",
+    "area": "196",
+    "price": "18",
+    "sotang": "6+",
+    "bedroom": "6+",
+    "nhavesinh": "6+",
+    "direction": "Đông Nam",
+    "tieu_de": "BIỆT THỰ VƯỜN ĐƯỜNG 26 QUẬN 9 GIÁ CHỈ 18 TỶ",
+    "mo_ta": "Biệt thự vườn đường 26, P. Tăng Nhơn Phú, Q9 cũ, diện tích 196m, hoàn công chuẩn giá chỉ 18 tỷ. Ngang 8,1m x 27,5m vuông đẹp. Thiết kế: Hầm để xe hơi, tầng hầm có thêm 2 PN, phòng kỹ thuật điện, tầng trệt có phòng khách, bếp, WC. Trên có 6 PN, 6 WC, sân thượng trước sau. Bên hông nhà có chừa 1,4m làm hàng lang trồng cây mát mẻ. Sau nhà có sân tiểu cảnh. Nhà chủ hiện đang ở Bà Rịa - Vũng Tàu nên khách thiện chí báo trước 3 tiếng để nhờ người hỗ trợ.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042939589_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042941118_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042942333_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042943698_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042944853_4.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042946030_5.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042947207_6.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042948258_7.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042949448_8.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T08:22:30.872Z"
+  },
+  {
     "id": "prod_1780042821937",
     "sonha": "",
     "duongpho": "Đình Phong Phú",
