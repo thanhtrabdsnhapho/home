@@ -1,5 +1,31 @@
 [
   {
+    "id": "prod_1780043553154",
+    "sonha": "",
+    "duongpho": "Lã Xuân Oai",
+    "phuongxa": "Long Trường",
+    "tinhthanh": "Quận 9",
+    "area": "51",
+    "price": "6.8",
+    "sotang": "4",
+    "bedroom": "3",
+    "nhavesinh": "5",
+    "direction": "Tây Nam",
+    "tieu_de": "NHÀ MỚI TINH HẺM XE HƠI TẠI QUẬN 9",
+    "mo_ta": "Nhà mới tinh 4 tầng, xe hơi vào tận nơi, bao gồm phòng khách, phòng thờ, bếp, 3 phòng ngủ và 5 WC, có sân thượng trước và sau. Vị trí đắc địa trên đường xe hơi, khu dân cư an ninh và ổn định, hạ tầng đẹp. Thuận tiện di chuyển đến Vinhome, vành đai, cao tốc, gần ĐH TC Marketing và trường học các cấp, đầy đủ tiện ích.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043542204_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043543690_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043545110_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043546506_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043548090_4.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043549483_5.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043551061_6.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T08:32:33.154Z"
+  },
+  {
     "id": "prod_1780043453567",
     "sonha": "",
     "duongpho": "Trường Lưu",
