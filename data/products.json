@@ -1,5 +1,28 @@
 [
   {
+    "id": "prod_1780043652264",
+    "sonha": "",
+    "duongpho": " Làng Tăng Phú ",
+    "phuongxa": "Tăng Nhơn Phú",
+    "tinhthanh": "TP Thủ Đức",
+    "area": "50",
+    "price": "6.9",
+    "sotang": "3",
+    "bedroom": "2",
+    "nhavesinh": "3",
+    "direction": "Tây",
+    "tieu_de": "NHÀ 3 TẦNG ĐƯỜNG LÊ VĂN VIỆT, THỦ ĐỨC – TIỆN NGHI ĐẦY ĐỦ",
+    "mo_ta": "Nhà 3 tầng kiên cố nằm trong khu dân cư sầm uất, hẻm xe tải rộng rãi, ô tô đỗ trong nhà. Diện tích 50.4m², diện tích sàn 117m², hướng Tây. Sổ hồng riêng, có thể vay ngân hàng với hạn mức tốt. Nhà có 2 phòng ngủ, 3 WC, phòng khách và bếp rộng rãi. Tặng toàn bộ nội thất khi mua nhà.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043647095_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043648391_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043649591_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043650860_3.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T08:34:12.264Z"
+  },
+  {
     "id": "prod_1780043553154",
     "sonha": "",
     "duongpho": "Lã Xuân Oai",
