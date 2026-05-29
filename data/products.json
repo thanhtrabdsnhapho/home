@@ -1,5 +1,26 @@
 [
   {
+    "id": "prod_1780019907248",
+    "sonha": "",
+    "duongpho": "Lã Xuân Oai",
+    "phuongxa": "Long Trường",
+    "tinhthanh": "TP Thủ Đức",
+    "area": "23",
+    "price": "5,5",
+    "sotang": "3",
+    "bedroom": "2",
+    "nhavesinh": "3",
+    "direction": "Đông Bắc",
+    "tieu_de": "MẶT TIỀN KINH DOANH 3 TẦNG MỚI TINH TẠI LÃ XUÂN OAI",
+    "mo_ta": "Vị trí đắc địa – mặt tiền đường Lã Xuân Oai, khu vực sầm uất, thuận tiện kinh doanh mọi ngành nghề. Diện tích: 60m², DTCN : 23m², nở hậu nhẹ – phong thủy tốt, tài lộc hanh thông. Kết cấu: 3 tầng mới tinh, thiết kế hiện đại, tối ưu công năng sử dụng. Giá 5,5 tỷ – cực kỳ hấp dẫn cho một căn nhà mặt tiền tiềm năng. Phù hợp vừa ở vừa kinh doanh hoặc cho thuê dòng tiền ổn định.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780019903979_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780019904967_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780019906000_2.jpeg"
+    ],
+    "created_at": "2026-05-29T01:58:27.248Z"
+  },
+  {
     "id": "prod_1780019670300",
     "sonha": "",
     "duongpho": "Nguyễn Duy Trinh",
