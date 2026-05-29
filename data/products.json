@@ -1,5 +1,32 @@
 [
   {
+    "id": "prod_1780042072664",
+    "sonha": "",
+    "duongpho": "Lò Lu",
+    "phuongxa": "Long Trường",
+    "tinhthanh": "Quận 9",
+    "area": "63",
+    "price": "6.79",
+    "sotang": "3",
+    "bedroom": "4",
+    "nhavesinh": "3",
+    "direction": "Đông Bắc",
+    "tieu_de": "NHÀ MỚI XÂY 1 TRỆT 2 LẦU ĐƯỜNG LÒ LU, GIÁ TỐT CHỈ 6.79 TỶ",
+    "mo_ta": "Nhà mới xây, thiết kế sang trọng với sân để xe, phòng khách, bếp và sân sau 1m. Tầng 2 và 3 có 4 phòng ngủ và 2 WC. Tầng 4 là sân thượng đúc, lý tưởng cho việc trồng rau và tiểu cảnh thư giãn. Vị trí cách mặt tiền đường Lò Lu chỉ 15m, đường xe tải tránh, khu vực nhộn nhịp với đầy đủ tiện ích, cách Vin chỉ 10 phút di chuyển. Đường Lò Lu đã mở rộng 30m, khu vực tiềm năng tăng giá cao, phù hợp cho việc mua ở và đầu tư. Nhà đang hoàn công, dự kiến cuối tháng 5/2026 có sổ hoàn công.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042062083_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042063450_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042064732_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042066039_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042067133_4.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042068250_5.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042069614_6.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042070762_7.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T08:07:52.664Z"
+  },
+  {
     "id": "prod_1780041964531",
     "sonha": "",
     "duongpho": "Lò Lu",
