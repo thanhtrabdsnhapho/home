@@ -1,5 +1,30 @@
 [
   {
+    "id": "prod_1780044574251",
+    "sonha": "",
+    "duongpho": "Đường 102",
+    "phuongxa": "Tăng Nhơn Phú A",
+    "tinhthanh": "Quận 9",
+    "area": "72",
+    "price": "12.5",
+    "sotang": "3",
+    "bedroom": "4",
+    "nhavesinh": "5",
+    "direction": "Không Xác Định",
+    "tieu_de": "NHÀ ĐẸP 2 MẶT TIỀN ĐƯỜNG 102 MAN THIỆN, GIÁ CHỈ 12.5 TỶ",
+    "mo_ta": "Nhà đẹp 2 mặt tiền đường 102 Man Thiện, thiết kế hiện đại với sân xe hơi, bếp, 4 phòng ngủ, 5 WC, ban công và sân thượng. Diện tích 72m2, ngang 5m vuông vức. Nhà mới xây năm 2022 với nguyên vật liệu chất lượng cao, chủ nhà tâm huyết. Sổ đang nhờ bank giữ hộ và hoàn công. Chủ nhiệt bán, giá thương lượng.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780044566777_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780044567926_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780044569191_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780044570300_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780044571374_4.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780044572669_5.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T08:49:34.251Z"
+  },
+  {
     "id": "prod_1780044489384",
     "sonha": "",
     "duongpho": "Lã Xuân Oai",
