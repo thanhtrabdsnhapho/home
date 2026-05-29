@@ -1,5 +1,29 @@
 [
   {
+    "id": "prod_1780039247375",
+    "sonha": "30.1",
+    "duongpho": "Đường số 2",
+    "phuongxa": "Long Trường",
+    "tinhthanh": "Quận 9",
+    "area": "73",
+    "price": "6.5",
+    "sotang": "3",
+    "bedroom": "3",
+    "nhavesinh": "3",
+    "direction": "Đông Nam",
+    "tieu_de": "NHÀ MỚI XÂY ĐẸP TẠI QUẬN 9, GẦN NGUYỄN DUY TRINH",
+    "mo_ta": "Nhà mới siêu đẹp 3 tầng với 3 phòng ngủ và 3 WC, cách Nguyễn Duy Trinh chỉ 200m. Đường 2 rộng rãi, xe tải né nhau thoải mái, phù hợp cho gia đình hoặc đầu tư. Hướng Đông Nam mang lại không gian thoáng đãng và ánh sáng tự nhiên.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780039240048_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780039241511_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780039242958_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780039244316_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780039245757_4.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T07:20:47.375Z"
+  },
+  {
     "id": "prod_1780038941884",
     "sonha": "",
     "duongpho": "Đường số 2",
