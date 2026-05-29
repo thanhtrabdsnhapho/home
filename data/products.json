@@ -1,5 +1,28 @@
 [
   {
+    "id": "prod_1780042740268",
+    "sonha": "",
+    "duongpho": "Lò Lu",
+    "phuongxa": "Long Phước",
+    "tinhthanh": "Quận 9",
+    "area": "97",
+    "price": "5.1",
+    "sotang": "1",
+    "bedroom": "2",
+    "nhavesinh": "1",
+    "direction": "Không Xác Định",
+    "tieu_de": "BÁN NHÀ CẤP 4 DIỆN TÍCH LỚN TẠI QUẬN 9",
+    "mo_ta": "Căn nhà cấp 4 với diện tích lớn 97.2m2, ngang 7m, dài 14.6m, hiện trạng còn mới với 2 phòng ngủ. Nằm cạnh mặt tiền đường Lò Lu mở rộng 30m, khu dân cư đông đúc, rất phù hợp cho việc đầu tư xây mới căn hộ dịch vụ với diện tích ngang lớn hiếm có. Sổ vuông, sổ tại nhà, mua bán nhanh chóng.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042734397_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042735828_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042737288_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042738714_3.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T08:19:00.268Z"
+  },
+  {
     "id": "prod_1780042670839",
     "sonha": "",
     "duongpho": "Trương Hạnh",
