@@ -1,5 +1,28 @@
 [
   {
+    "id": "prod_1780044247070",
+    "sonha": "",
+    "duongpho": "Võ Văn Hát",
+    "phuongxa": "Long Trường",
+    "tinhthanh": "TP Hồ Chí Minh",
+    "area": "55",
+    "price": "5.4",
+    "sotang": "3",
+    "bedroom": "3",
+    "nhavesinh": "4",
+    "direction": "Không Xác Định",
+    "tieu_de": "NHÀ 3 TẦNG GIÁ RẺ TẠI QUẬN 9, PHÙ HỢP KINH DOANH",
+    "mo_ta": "+ Diện tích 54.4m2 ngang 4m dài 14m, 3 tầng diện tích sàn 130m2 vị trí Vip. + Kết cấu: 1 Trệt 2 lầu, 3 PN, 4 WC. + Gồm phòng khách, bếp, 3 PN, 4 WC, sân thượng trước rộng thoáng. Nhà rất phù hợp mở văn phòng công ty hoặc cho thuê làm dịch vụ, kinh doanh đa ngành. + Khu vực đang phát triển, sát mặt tiền đường Võ Văn Hát ra Lã Xuân Oai, Lò Lu. Khu vực có rất nhiều tiện ích vây quanh, kế chợ, trường học các cấp. + Sổ riêng, hoàn công đủ + công chứng ngay. + Thời gian tiếp khách: Các ngày trong tuần.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780044242869_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780044243951_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780044244887_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780044245901_3.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T08:44:07.070Z"
+  },
+  {
     "id": "prod_1780044194031",
     "sonha": "",
     "duongpho": "Đường 160",
