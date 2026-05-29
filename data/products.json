@@ -1,5 +1,29 @@
 [
   {
+    "id": "prod_1780042173341",
+    "sonha": "",
+    "duongpho": "Đường số 4",
+    "phuongxa": "Long Phước",
+    "tinhthanh": "Thành phố Thủ Đức",
+    "area": "94",
+    "price": "7.58",
+    "sotang": "3",
+    "bedroom": "6+",
+    "nhavesinh": "6+",
+    "direction": "Bắc",
+    "tieu_de": "CĂN HỘ DỊCH VỤ MỚI TẠI QUẬN 9 - TIỆN NGHI VÀ AN NINH CAO",
+    "mo_ta": "Căn hộ dịch vụ 1 trệt 2 lầu mới, thiết kế hiện đại với 6 phòng ngủ lớn, bếp và ban công thoáng mát. Mái đúc BTCT có thể cải thiện làm sân thượng, chỗ để xe hơi và xe máy, lối đi nội bộ từ sân sau, cầu thang thoát hiểm. Vị trí góc 2 mặt tiền hẻm rộng, có công viên mini gần kề, thuận tiện cho việc tập thể dục. Nhà nằm trong khu vực an ninh dân trí cao, gần các tiện ích như chợ, trường học và khu công nghiệp lớn. Pháp lý rõ ràng, sổ mới 2025, công chứng ngay.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042166486_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042167974_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042169307_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042170555_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042171755_4.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T08:09:33.341Z"
+  },
+  {
     "id": "prod_1780042072664",
     "sonha": "",
     "duongpho": "Lò Lu",
