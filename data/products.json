@@ -1,5 +1,27 @@
 [
   {
+    "id": "prod_1780044489384",
+    "sonha": "",
+    "duongpho": "Lã Xuân Oai",
+    "phuongxa": "Tăng Nhơn Phú",
+    "tinhthanh": "Quận 9",
+    "area": "79",
+    "price": "5.8",
+    "sotang": "1",
+    "bedroom": "3",
+    "nhavesinh": "2",
+    "direction": "Không Xác Định",
+    "tieu_de": "CĂN NHÀ KINH DOANH TẠP HOÁ TẠI QUẬN 9, TIỆN ÍCH ĐẦY ĐỦ",
+    "mo_ta": "Căn nhà chủ vừa ở vừa kinh doanh tạp hoá với diện tích sử dụng 130m2, công nhận 79,5m2. Gồm 3 phòng ngủ và 2 WC, phù hợp cho gia đình đông người. Có 2 căn nhà trọ với lối đi riêng biệt. Nằm cạnh mặt tiền Lã Xuân Oai mở rộng 30m, thích hợp xây trọ hoặc căn hộ dịch vụ. Khu vực dân cư đông đúc, gần chợ Tăng Nhơn Phú, UBND phường và trường học các cấp. Sổ hồng riêng chính chủ, đơn giá tốt từ chủ lâu đời.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780044485594_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780044486717_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780044487888_2.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T08:48:09.384Z"
+  },
+  {
     "id": "prod_1780044349020",
     "sonha": "",
     "duongpho": "Đường số 8",
