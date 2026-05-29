@@ -1,5 +1,28 @@
 [
   {
+    "id": "prod_1780045442360",
+    "sonha": "",
+    "duongpho": "đường số 385",
+    "phuongxa": "Tăng Nhơn Phú",
+    "tinhthanh": "Quận 9",
+    "area": "58",
+    "price": "6.35",
+    "sotang": "1",
+    "bedroom": "2",
+    "nhavesinh": "1",
+    "direction": "Tây Bắc",
+    "tieu_de": "CĂN NHÀ ĐƯỜNG 385 QUẬN 9, GIÁ TỐT CHO NHÀ ĐẦU TƯ",
+    "mo_ta": "Diện tích 58.5m, hiện trạng đang cho thuê 6 triệu/tháng, nhà có biên độ thương lượng. Hẻm xe hơi 5m thông, sổ hồng riêng, hỗ trợ vay. Giá 6.35 tỷ, có thể bớt lộc may mắn.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780045437356_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780045438463_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780045439811_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780045440908_3.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T09:04:02.360Z"
+  },
+  {
     "id": "prod_1780045279619",
     "sonha": "",
     "duongpho": "Võ Văn Hát",
