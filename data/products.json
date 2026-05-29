@@ -1,5 +1,29 @@
 [
   {
+    "id": "prod_1780038686892",
+    "sonha": "",
+    "duongpho": "Võ Văn Hát",
+    "phuongxa": "Long Trường",
+    "tinhthanh": "Quận 9",
+    "area": "50",
+    "price": "5.8",
+    "sotang": "3",
+    "bedroom": "3",
+    "nhavesinh": "2",
+    "direction": "Đông Nam",
+    "tieu_de": "NHÀ MỚI 1 TRỆT 2 LẦU HẺM XE HƠI ĐƯỜNG VÕ VĂN HÁT",
+    "mo_ta": "Nhà mới 1 trệt 2 lầu với thiết kế hiện đại, tầng trệt có sân để xe, phòng khách, bếp, WC sau nhà và giếng trời. Tầng 2 gồm 2 phòng ngủ, 1 WC và ban công thoáng mát. Tầng 3 có 1 phòng ngủ, phòng thờ và sân thượng rộng rãi. Hẻm xe hơi, khu dân cư văn minh, đối diện trường Đại học Marketing, hướng Đông Nam.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780038680410_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780038681599_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780038682822_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780038684034_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780038685505_4.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T07:11:26.892Z"
+  },
+  {
     "id": "prod_1780024916256",
     "sonha": "",
     "duongpho": "Đường 970",
