@@ -1,5 +1,30 @@
 [
   {
+    "id": "prod_1780042821937",
+    "sonha": "",
+    "duongpho": "Đình Phong Phú",
+    "phuongxa": "Tăng Nhơn Phú",
+    "tinhthanh": "Quận 9",
+    "area": "80",
+    "price": "7.2",
+    "sotang": "3",
+    "bedroom": "3",
+    "nhavesinh": "2",
+    "direction": "Tây Nam",
+    "tieu_de": "NHÀ ĐẸP 3 TẦNG TẠI QUẬN 9, GIÁ HẤP DẪN",
+    "mo_ta": "Nhà 3 tầng với diện tích 80m2, gồm 3 phòng ngủ và 2 nhà vệ sinh, hướng Tây - Nam. Sổ hồng đầy đủ, hỗ trợ vay ngân hàng. Khu vực yên tĩnh, gần hẻm xe hơi.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042811972_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042813532_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042815167_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042816802_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042818284_4.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042819869_5.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T08:20:21.937Z"
+  },
+  {
     "id": "prod_1780042740268",
     "sonha": "",
     "duongpho": "Lò Lu",
