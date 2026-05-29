@@ -1,5 +1,30 @@
 [
   {
+    "id": "prod_1780045710842",
+    "sonha": "26.12B",
+    "duongpho": "Đường 26",
+    "phuongxa": "Tăng Nhơn Phú A",
+    "tinhthanh": "TP. Thủ Đức",
+    "area": "149",
+    "price": "13.1",
+    "sotang": "3",
+    "bedroom": "4",
+    "nhavesinh": "5",
+    "direction": "Không Xác Định",
+    "tieu_de": "BÁN GẤP NHÀ MÁI THÁI TẠI QUẬN 9",
+    "mo_ta": "Nhà mái thái 3 tầng với 4 phòng ngủ và 5 nhà vệ sinh, diện tích 149m², nở hậu 5.3m. Sân xe rộng rãi, giếng trời thoáng mát, sân thượng lý tưởng. Đường trước nhà rộng 8m, xe hơi vào thoải mái. Vị trí gần Khu Công nghệ cao TP.HCM, đầy đủ tiện ích. Sổ riêng, hỗ trợ giải chấp cho chủ vay 6 tỷ.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780045701163_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780045702721_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780045704144_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780045705662_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780045707110_4.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780045708520_5.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T09:08:30.842Z"
+  },
+  {
     "id": "prod_1780045594431",
     "sonha": "39.48.5.6",
     "duongpho": "Đường số 102",
