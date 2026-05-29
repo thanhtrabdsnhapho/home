@@ -1,5 +1,29 @@
 [
   {
+    "id": "prod_1780041562840",
+    "sonha": "",
+    "duongpho": "đường số 5",
+    "phuongxa": "Phước Bình",
+    "tinhthanh": "Quận 9",
+    "area": "90",
+    "price": "9.7",
+    "sotang": "1",
+    "bedroom": "2",
+    "nhavesinh": "1",
+    "direction": "Không Xác Định",
+    "tieu_de": "CĂN NHÀ CẤP 4 TẠI PHƯỚC BÌNH, QUẬN 9 - CƠ HỘI ĐẦU TƯ HẤP DẪN",
+    "mo_ta": "Chính chủ lâu đời gửi bán căn nhà Phước Bình. Nhà cấp 4 sổ vuông vức 2 PN. Nhà cũ còn ở được. Khu Bàn cờ Phước Bình, Đường số 5 thông, cạnh Đại lộ 2. Sổ tại nhà mua bán ngay.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041555252_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041556779_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041558114_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041559616_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041561084_4.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T07:59:22.840Z"
+  },
+  {
     "id": "prod_1780041510124",
     "sonha": "",
     "duongpho": "Đường A4",
