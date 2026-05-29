@@ -1,5 +1,30 @@
 [
   {
+    "id": "prod_1780049906515",
+    "sonha": "",
+    "duongpho": "Lò Lu",
+    "phuongxa": "Trường Thạnh",
+    "tinhthanh": "Thủ Đức",
+    "area": "77",
+    "price": "6.3",
+    "sotang": "2",
+    "bedroom": "3",
+    "nhavesinh": "3",
+    "direction": "Nam",
+    "tieu_de": "BÁN NHÀ 1 TRỆT 1 LẦU SIÊU HIẾM SÁT MẶT TIỀN LÒ LU",
+    "mo_ta": "Nhà 1 trệt 1 lầu với diện tích gần 80m², thiết kế hiện đại, dọn vào ở ngay. Ngang 6m cực hiếm, nhà thoáng rộng, dễ bố trí nội thất. Công năng gồm 3 phòng ngủ và 3 WC khép kín. Vị trí sát mặt tiền Lò Lu, thuận tiện di chuyển ra Nguyễn Xiển, Lã Xuân Oai. Gần khu Công nghệ cao TP.HCM, Vinhome Grand Park, chợ, trường học các cấp, cửa hàng tiện lợi, quán ăn, cafe. Khu dân cư hiện hữu, an ninh, tiềm năng tăng giá.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780049898760_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780049899959_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780049901071_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780049902549_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780049903665_4.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780049904843_5.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T10:18:26.515Z"
+  },
+  {
     "id": "prod_1780049824621",
     "sonha": "",
     "duongpho": "Đường số 12",
