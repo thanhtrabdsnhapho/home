@@ -1,5 +1,30 @@
 [
   {
+    "id": "prod_1780040500839",
+    "sonha": "",
+    "duongpho": "Lê Văn Việt",
+    "phuongxa": "Long Bình",
+    "tinhthanh": "Quận 9",
+    "area": "69",
+    "price": "6.2",
+    "sotang": "3",
+    "bedroom": "3",
+    "nhavesinh": "3",
+    "direction": "Tây Bắc",
+    "tieu_de": "NHÀ ĐẸP 3 TẦNG SÁT MẶT TIỀN LÊ VĂN VIỆT - GIÁ TỐT",
+    "mo_ta": "Nhà có diện tích 69m2, ngang 4m vuông vức, kết cấu 3 tầng với 3 phòng ngủ và 3 WC. Sân để xe, phòng thờ, sân phơi rộng và sân thượng. Nhà mới đang cho thuê 10 triệu/tháng. Vị trí thuận lợi, gần siêu thị, ngân hàng, trường học các cấp và các tiện ích khác. Giao thông thuận tiện di chuyển ra các khu vực lân cận. Sổ hoàn công chuẩn, dễ dàng công chứng nhanh.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040492941_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040494175_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040495501_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040496709_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040497857_4.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040499293_5.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T07:41:40.839Z"
+  },
+  {
     "id": "prod_1780040406790",
     "sonha": "",
     "duongpho": "Nguyễn Xiển",
