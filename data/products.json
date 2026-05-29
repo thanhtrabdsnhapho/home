@@ -1,5 +1,29 @@
 [
   {
+    "id": "prod_1780040406790",
+    "sonha": "",
+    "duongpho": "Nguyễn Xiển",
+    "phuongxa": "Long Phước",
+    "tinhthanh": "Quận 9",
+    "area": "50",
+    "price": "6",
+    "sotang": "3",
+    "bedroom": "3",
+    "nhavesinh": "3",
+    "direction": "Tây Bắc",
+    "tieu_de": "NHÀ MỚI HOÀN CÔNG – FULL NỘI THẤT CAO CẤP",
+    "mo_ta": "Nhà mới hoàn công, full nội thất cao cấp, thiết kế hiện đại, tối ưu không gian, ánh sáng và thông gió tốt. Vị trí hẻm sạch đẹp, khu dân cư yên tĩnh, gần chợ, trường học, tiện ích đầy đủ, kết nối nhanh ra trục Nguyễn Xiển, đi Vinhomes Grand Park vài phút. Sổ hồng riêng, pháp lý rõ ràng, tặng full nội thất, chỉ cần xách vali vào ở.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040400799_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040401963_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040403158_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040404362_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040405515_4.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T07:40:06.791Z"
+  },
+  {
     "id": "prod_1780040283875",
     "sonha": "",
     "duongpho": "Lã Xuân Oai",
