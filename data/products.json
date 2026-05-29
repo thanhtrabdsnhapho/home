@@ -1,5 +1,33 @@
 [
   {
+    "id": "prod_1780040168285",
+    "sonha": "",
+    "duongpho": "Tam Đa",
+    "phuongxa": "Long Trường",
+    "tinhthanh": "Quận 9",
+    "area": "48",
+    "price": "5.6",
+    "sotang": "3",
+    "bedroom": "4",
+    "nhavesinh": "3",
+    "direction": "Tây Nam",
+    "tieu_de": "BÁN NHÀ 1 TRỆT + 2 LẦU TẠI LONG TRƯỜNG QUẬN 9",
+    "mo_ta": "Nhà 1 trệt + 2 lầu + sân thượng với 4 phòng ngủ và 3 WC. Diện tích đất 50.4m2, diện tích sàn 110m2. Đường nhựa xe tải né nhau, gần ngã ba Tam Đa - Nguyễn Duy Trinh, cách mặt tiền Tam Đa chỉ 30m. Gần chợ Long Trường chỉ 500m, cách Khu Công Nghệ Cao Samsung, ĐH FPT, ĐH Nguyễn Tất Thành 2km.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040158447_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040159649_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040160742_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040161732_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040162761_4.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040163987_5.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040164897_6.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040165853_7.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040166871_8.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T07:36:08.285Z"
+  },
+  {
     "id": "prod_1780040077226",
     "sonha": "",
     "duongpho": "Trường Lưu",
