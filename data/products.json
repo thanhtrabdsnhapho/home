@@ -1,5 +1,27 @@
 [
   {
+    "id": "prod_1780043938970",
+    "sonha": "",
+    "duongpho": "Đình Phong Phú",
+    "phuongxa": "Tăng Nhơn Phú",
+    "tinhthanh": "Quận 9",
+    "area": "72",
+    "price": "6.6",
+    "sotang": "2",
+    "bedroom": "2",
+    "nhavesinh": "2",
+    "direction": "Không Xác Định",
+    "tieu_de": "NHÀ ĐẸP TRUNG TÂM QUẬN 9, XE HƠI NGỦ TRONG NHÀ",
+    "mo_ta": "Nhà có diện tích 72m2, thiết kế 1 trệt 1 lửng với 2 phòng ngủ. Vị trí hẻm rộng 6m, khu vực yên tĩnh, dân trí cao, pháp lý chuẩn sẵn sàng ra công chứng.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043934326_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043935732_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043937301_2.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T08:38:58.970Z"
+  },
+  {
     "id": "prod_1780043883553",
     "sonha": "",
     "duongpho": "Làng Tăng Phú ",
