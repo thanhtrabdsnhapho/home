@@ -1,5 +1,32 @@
 [
   {
+    "id": "prod_1780041964531",
+    "sonha": "",
+    "duongpho": "Lò Lu",
+    "phuongxa": "Long Phước",
+    "tinhthanh": "TP. Hồ Chí Minh",
+    "area": "64",
+    "price": "7.5",
+    "sotang": "4",
+    "bedroom": "4",
+    "nhavesinh": "3",
+    "direction": "Không Xác Định",
+    "tieu_de": "NHÀ 4 TẦNG MỚI ĐẸP TẠI ĐƯỜNG LÒ LU QUẬN 9 – GIÁ 7,5 TỶ",
+    "mo_ta": "Nhà hẻm xe hơi tránh, hẻm nội bộ 5m, đầu hẻm có cổng an ninh 24/24. Kết cấu: xây 1 trệt, 1 lửng, 2 lầu và sân thượng. Bao gồm 4 phòng ngủ, 3 WC, phòng khách, bếp rộng rãi, có sân để xe hơi. Các phòng ngủ đều có cửa sổ thông thoáng. Sử dụng khóa số. Nhà có giếng trời cực kỳ mát mẻ, mang lại sinh khí tốt cho chủ nhà. Vị trí nằm trên đường Lò Lu, gần Nguyễn Xiển, cách đại đô thị Vinhomes quận 9 khoảng hơn 1km. Các khu công nghệ cao 5 phút, đường vành đai 3 đang thi công kế bên. Tiện ích xung quanh đầy đủ, không thiếu thứ gì. Sổ hồng chính chủ, hoàn công đầy đủ.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041952891_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041954299_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041955615_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041957057_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041958578_4.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041960262_5.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041961607_6.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041962963_7.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T08:06:04.531Z"
+  },
+  {
     "id": "prod_1780041864955",
     "sonha": "",
     "duongpho": "385",
