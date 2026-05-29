@@ -1,5 +1,31 @@
 [
   {
+    "id": "prod_1780044349020",
+    "sonha": "",
+    "duongpho": "Đường số 8",
+    "phuongxa": "Long Phước",
+    "tinhthanh": "Quận 9",
+    "area": "50",
+    "price": "6.39",
+    "sotang": "3",
+    "bedroom": "3",
+    "nhavesinh": "3",
+    "direction": "Tây Bắc",
+    "tieu_de": "NHÀ 3 TẦNG ĐẸP TẠI QUẬN 9, GIÁ CHỈ 6.39 TỶ",
+    "mo_ta": "Không gian sống tuyệt vời cho gia đình nhỏ ngay tại Đông Tăng Long. Nhà 3 tầng chủ xây tâm huyết full nội thất với không gian thoáng, mở đón nhiều ánh sáng, thông gió khắp căn nhà, view chill. Nhà đủ công năng gồm khách, bếp rộng, 3PN, 3WC, phòng thờ, sân thượng. Khu phân lô đồng bộ, dân trí, không ngập nước, cây xanh phủ mát, đường thông 8m đậu đỗ thoải mái. Tiện kết nối khu Đông Tăng Long, Lã Xuân Oai, Nguyễn Duy Trinh, Lò Lu đang mở rộng, tương lai kết nối ngay Liên Phường - Vành đai 3. SHR, đã hoàn công đầy đủ. Sổ tại gia, hỗ trợ bank.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780044340672_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780044341924_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780044343124_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780044344314_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780044345410_4.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780044346474_5.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780044347576_6.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T08:45:49.021Z"
+  },
+  {
     "id": "prod_1780044247070",
     "sonha": "",
     "duongpho": "Võ Văn Hát",
