@@ -1,5 +1,32 @@
 [
   {
+    "id": "prod_1780043111873",
+    "sonha": "",
+    "duongpho": "Trường Lưu",
+    "phuongxa": "Long Trường",
+    "tinhthanh": "TP Thủ Đức",
+    "area": "53",
+    "price": "5.95",
+    "sotang": "3",
+    "bedroom": "4",
+    "nhavesinh": "4",
+    "direction": "Đông",
+    "tieu_de": "NHÀ MỚI ĐẸP 3 TẦNG TẠI QUẬN 9, GẦN ĐH TÀI CHÍNH MARKETING",
+    "mo_ta": "+ Diện tích 52,4 m2 ngang 4m vuông vức+ Kết cấu: Nhà mới đẹp sang 3 tầng cứng cáp ở ngay 4PN 4WC, Sân ô tô, PK, Bếp, sân thượng+ Trục Trường Lưu thông Khu Nam Khang vài bước ra MT Nguyễn Duy Trinh, ngay ĐH Tài Chính Marketing, KĐT Đông Tăng Long, thuận tiện di chuyển qua khu CNC...+ Ngay Trung tâm Quận 9, cạnh UBND thuận tiện di chuyển Quận 2, Quận 7, Quận 1+ Sổ riêng, công chứng ngay",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043101983_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043103175_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043104276_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043105564_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043106693_4.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043107961_5.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043109215_6.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043110367_7.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T08:25:11.873Z"
+  },
+  {
     "id": "prod_1780043036929",
     "sonha": "",
     "duongpho": "Tăng Nhơn Phú",
