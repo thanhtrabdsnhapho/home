@@ -1,5 +1,31 @@
 [
   {
+    "id": "prod_1780043453567",
+    "sonha": "",
+    "duongpho": "Trường Lưu",
+    "phuongxa": "Long Trường",
+    "tinhthanh": "TP. Thủ Đức (Quận 9 cũ)",
+    "area": "71",
+    "price": "5.55",
+    "sotang": "3",
+    "bedroom": "3",
+    "nhavesinh": "2",
+    "direction": "Đông",
+    "tieu_de": "BÁN NHÀ 3 TẦNG HIỆN ĐẠI TẠI TRƯỜNG LƯU, QUẬN 9",
+    "mo_ta": "Ký chính chủ. Ngày 5/4/2026 chủ nhiệt bán giảm 400, giá mới 5 tỷ 550 triệu. Bán nhà 3 tầng – hẻm Trường Lưu, phường Long Trường, TP. Thủ Đức (Quận 9 cũ). Diện tích: 71 m² ngang 4m nở hậu tài Lộc. Kết cấu: 1 trệt, 2 lầu, xây dựng kiên cố – thiết kế hiện đại, kèm nội thất. Công năng: 3 phòng ngủ, phòng khách rộng rãi, sân phơi thoáng mát. Hẻm rộng 10m, có vỉa hè sạch đẹp, ô tô ra vào thoải mái. Vị trí: Cách chợ Long Trường chỉ 500m, khu dân cư an ninh, tiện ích xung quanh đầy đủ.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043443463_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043445208_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043446483_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043447587_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043448976_4.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043450545_5.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043451915_6.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T08:30:53.567Z"
+  },
+  {
     "id": "prod_1780043373646",
     "sonha": "45.4D",
     "duongpho": "Đường 22",
