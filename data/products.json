@@ -1,5 +1,30 @@
 [
   {
+    "id": "prod_1780041864955",
+    "sonha": "",
+    "duongpho": "385",
+    "phuongxa": "Tăng Nhơn Phú",
+    "tinhthanh": "Quận 9",
+    "area": "55",
+    "price": "6.7",
+    "sotang": "2",
+    "bedroom": "2",
+    "nhavesinh": "2",
+    "direction": "Không Xác Định",
+    "tieu_de": "NHÀ BÁN ĐƯỜNG 385 QUẬN 9 - HÀNG HIẾM GIÁ TỐT",
+    "mo_ta": "Bán nhà 2 tầng đường 385, trệt + lầu, 2 phòng ngủ, 2 WC. Diện tích 55m2 (4.5x12.2), vuông vức, không lỗi phong thủy, không tâm linh. Khu Bàn Cờ, hẻm 7m thông, giá 6.7 tỷ, khu vực hiếm nhà bán.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041857397_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041858612_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041859759_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041861066_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041862371_4.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041863450_5.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T08:04:24.955Z"
+  },
+  {
     "id": "prod_1780041769961",
     "sonha": "",
     "duongpho": "Võ Văn Hát",
