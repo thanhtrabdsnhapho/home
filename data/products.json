@@ -1,5 +1,31 @@
 [
   {
+    "id": "prod_1780050840204",
+    "sonha": "",
+    "duongpho": "Đường 970",
+    "phuongxa": "Long Trường",
+    "tinhthanh": "Thủ Đức",
+    "area": "60",
+    "price": "7.5",
+    "sotang": "4",
+    "bedroom": "4",
+    "nhavesinh": "3",
+    "direction": "Nam",
+    "tieu_de": "NHÀ MỚI FULL NỘI THẤT TẠI THỦ ĐỨC CHỈ 7.5 TỶ",
+    "mo_ta": "NHÀ MỚI XAAY TẶNG FULL NỘI THẤT. NHÀ ĐƯỜNG 8M XE TẢI TRÁNH - KHU PHÂN LÔ - 1 TR 3 LẦU. Nhà full nội thất xách ba lô vô ở thôi. Diện tích: 4.65 x 13 công nhận sổ 60 m2, hoàn công đầy đủ. 3 PN, 1P thờ, sân trước sau, sân thượng đúc hoàn toàn.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780050830196_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780050831587_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780050832902_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780050834246_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780050835613_4.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780050836947_5.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780050838482_6.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T10:34:00.204Z"
+  },
+  {
     "id": "prod_1780050656724",
     "sonha": "",
     "duongpho": "Lã Xuân Oai ",
