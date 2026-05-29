@@ -1,5 +1,30 @@
 [
   {
+    "id": "prod_1780043036929",
+    "sonha": "",
+    "duongpho": "Tăng Nhơn Phú",
+    "phuongxa": "Tăng Nhơn Phú B",
+    "tinhthanh": "TP Thủ Đức",
+    "area": "112",
+    "price": "11.9",
+    "sotang": "4",
+    "bedroom": "4",
+    "nhavesinh": "5",
+    "direction": "Không Xác Định",
+    "tieu_de": "NHÀ MẶT TIỀN KINH DOANH ĐƯỜNG TĂNG NHƠN PHÚ QUẬN 9",
+    "mo_ta": "Nhà 1 trệt 3 lầu, xây lệch tầng cực thoáng mát, 4PN, 1 Phòng thờ, 1 Phòng sinh hoạt chung, sân thượng trồng rau siêu xinh, 5WC, Bếp, PK. Mặt tiền đang KD. Thích hợp khách mua về làm VP, Spa, KD đa ngành nghề. Sổ vay bank, nhờ kh lấy hộ.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043028555_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043030023_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043031260_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043032617_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043033938_4.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043035274_5.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T08:23:56.929Z"
+  },
+  {
     "id": "prod_1780042950872",
     "sonha": "",
     "duongpho": "Đường 26",
