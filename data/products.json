@@ -1,5 +1,28 @@
 [
   {
+    "id": "prod_1780051502404",
+    "sonha": "",
+    "duongpho": "Đường số 2",
+    "phuongxa": "Tăng Nhơn Phú B",
+    "tinhthanh": "Quận 9",
+    "area": "37",
+    "price": "3.38",
+    "sotang": "2",
+    "bedroom": "2",
+    "nhavesinh": "1",
+    "direction": "Không Xác Định",
+    "tieu_de": "🔥 CHỦ GIẢM CHÀO – NHÀ 2 TẦNG – TRUNG TÂM TĂNG NHƠN PHÚ B – 3.38 TỶ",
+    "mo_ta": "THÔNG SỐ & GIÁ BÁN:\nVị trí: Đường số 2, KP1, P. Tăng Nhơn Phú B, TP. Thủ Đức (Quận 9 cũ).\nDiện tích: 36.8m² (Thổ cư 100%) – Diện tích xây dựng: 56m².\nKết cấu: Nhà 2 tầng (1 trệt, 1 lầu) gồm 2 phòng ngủ, 1 WC.\nGiá MỚI ƯU ĐÃI: 3 Tỷ 380 Triệu (Chủ vừa giảm chào 20 triệu, thiện chí bán).\n\nHIỆN TRẠNG & TIỀN NĂNG BỨT PHÁ:\n\nVị trí: Đắc địa, thuận tiện di chuyển ra các trục đường chính như Lê Văn Việt, Đình Phong Phú.\n\nTiện ích: Khu vực trung tâm sầm uất, xung quanh ngập tràn tiện ích: gần chợ, trường học các cấp, siêu thị... không thiếu thứ gì.\n\nPháp lý chuẩn: Sổ hồng riêng chính chủ, pháp lý chuẩn sạch, sẵn sàng công chứng sang tên ngay.\n\nQuý khách hàng quan tâm đến tài sản này vui lòng liên hệ để nhận thêm chi tiết và sắp xếp lịch xem nhà.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780051497378_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780051498542_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780051499648_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780051500911_3.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T10:45:02.404Z"
+  },
+  {
     "id": "prod_1780051150502",
     "sonha": "",
     "duongpho": "Võ Văn Hát",
