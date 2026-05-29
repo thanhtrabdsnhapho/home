@@ -1,5 +1,28 @@
 [
   {
+    "id": "prod_1780045138792",
+    "sonha": "",
+    "duongpho": "Nguyễn Duy Trinh",
+    "phuongxa": "Long Trường",
+    "tinhthanh": "Quận 9",
+    "area": "83",
+    "price": "5.4",
+    "sotang": "2",
+    "bedroom": "3",
+    "nhavesinh": "2",
+    "direction": "Tây Bắc",
+    "tieu_de": "NHÀ ĐẸP 2 TẦNG TẠI QUẬN 9, GIÁ CHỈ 5.4 TỶ",
+    "mo_ta": "Nhà đẹp, kiên cố nên vào ở ngay. Nhà 2 tầng và mái che gồm 3 phòng ngủ, 2 WC, bếp, phòng khách có sân lớn. Nhà hiện đang cho 2 mẹ con thuê ở với giá ưu đãi 7,5 triệu/tháng. Diện tích: Ngang 4.2m x Dài 20m, khu dân cư hiện hữu và không lộ giới. Sổ hồng riêng chính chủ hoàn công đủ, chủ thiện chí bán nhanh.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780045133470_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780045134769_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780045136011_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780045137208_3.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T08:58:58.792Z"
+  },
+  {
     "id": "prod_1780045042603",
     "sonha": "",
     "duongpho": "Lã Xuân Oai",
