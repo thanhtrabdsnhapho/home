@@ -1,5 +1,26 @@
 [
   {
+    "id": "prod_1780050279556",
+    "sonha": "",
+    "duongpho": "Đường 160",
+    "phuongxa": "Tăng Nhơn Phú A",
+    "tinhthanh": "TP. Thủ Đức",
+    "area": "78",
+    "price": "6.6",
+    "sotang": "Không Xác Định",
+    "bedroom": "Không Xác Định",
+    "nhavesinh": "Không Xác Định",
+    "direction": "Đông Nam",
+    "tieu_de": "LÔ ĐẤT SIÊU ĐẸP MẶT TIỀN ĐƯỜNG 160, PHƯỜNG TĂNG NHƠN PHÚ A",
+    "mo_ta": "+ Lô đất Mặt tiền đường 160, trước là có nhà cấp 4 đã đập bỏ, nay bán đất trống, Phường Tăng Nhơn Phú A, TP. Thủ Đức.,+ DT công nhận 78,2m, thực tế ngang 4m x 20m,+ Xây dựng được 5 tầng, phù hợp xây ở, kinh doanh, xây Chdv...+ Cách trường cấp ba Dương Văn thì 400m.+ Cách mặt tiền lã Xuân Oai 300m.+ Gần chợ nhỏ chợ tăng nhơn Phú A, bệnh viện lê Văn Việt, bán kính xung quanh trường tiểu học Trương Văn Thành, trường Trần Quốc Toản trường ĐH giao thông vận tải, khu vực đông dân cư.+ Sổ vuông đẹp, ko lỗi phong thủy, đang cất két, sẵn sàng giao dịch ngay.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780050276094_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780050277627_1.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T10:24:39.556Z"
+  },
+  {
     "id": "prod_1780049906515",
     "sonha": "",
     "duongpho": "Lò Lu",
