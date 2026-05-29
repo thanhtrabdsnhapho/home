@@ -1,5 +1,31 @@
 [
   {
+    "id": "prod_1780040608347",
+    "sonha": "",
+    "duongpho": "Nguyễn Xiển",
+    "phuongxa": "Long Phước",
+    "tinhthanh": "Quận 9",
+    "area": "50",
+    "price": "5.2",
+    "sotang": "3",
+    "bedroom": "3",
+    "nhavesinh": "3",
+    "direction": "Đông Bắc",
+    "tieu_de": "NHÀ 3 TẦNG FULL NỘI THẤT GẦN VIN, ĐƯỜNG XE TẢI TẠI QUẬN 9",
+    "mo_ta": "Diện tích 50m2, ngang 4.1m, dài 12.2m. Nhà 3 tầng, 3 phòng ngủ, 3 WC, phòng khách, bếp, sân để xe rộng rãi. Đường xe tải thông bàn cờ, cạnh Vin, tiện ích vô đối. Sổ tại gia, công chứng ngay.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040600999_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040602074_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040603091_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040604013_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040605048_4.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040606118_5.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780040607137_6.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T07:43:28.347Z"
+  },
+  {
     "id": "prod_1780040500839",
     "sonha": "",
     "duongpho": "Lê Văn Việt",
