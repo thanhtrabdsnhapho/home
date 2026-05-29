@@ -1,5 +1,27 @@
 [
   {
+    "id": "prod_1780044194031",
+    "sonha": "",
+    "duongpho": "Đường 160",
+    "phuongxa": "Tăng Nhơn Phú A",
+    "tinhthanh": "Thủ Đức",
+    "area": "74",
+    "price": "6",
+    "sotang": "1",
+    "bedroom": "Không Xác Định",
+    "nhavesinh": "Không Xác Định",
+    "direction": "Đông Nam",
+    "tieu_de": "MẶT TIỀN ĐƯỜNG 160 - ĐẤT ĐẸP FULL THỔ CƯ, GIÁ CHỈ 6 TỶ",
+    "mo_ta": "Diện tích 74m² (4 x 18.5m) – vuông A4, công nhận đủ, pháp lý rõ ràng. Đất ở hiện hữu – xây dựng tự do, hàng xóm xây đến 5 tầng. Đường trước nhà 10m có lề – ô tô đậu đỗ ngày đêm thoải mái, không cản trở giao thông. Tiện ích xung quanh đầy đủ: gần trường Dương Văn Thì, BV Lê Văn Việt, chợ, siêu thị, Bách Hóa Xanh,… Khu dân cư hiện hữu, sầm uất – kinh doanh nhỏ hoặc mở văn phòng đều thuận lợi. Sổ hồng riêng sạch đẹp – mua bán nhanh, công chứng ngay trong ngày. Vị trí cực kỳ tiềm năng – hiếm nhà mặt tiền giá tốt trong khu vực trung tâm Quận 9 cũ. Phù hợp khách mua để ở, mở cửa hàng, đầu tư cho thuê, hoặc xây tòa CHDV mini. Giá chỉ 6 tỷ nhỉnh – mặt tiền giá mềm không còn nhiều!",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780044190052_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780044191187_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780044192370_2.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T08:43:14.031Z"
+  },
+  {
     "id": "prod_1780044126949",
     "sonha": "",
     "duongpho": "Lã Xuân Oai",
