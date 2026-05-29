@@ -1,5 +1,29 @@
 [
   {
+    "id": "prod_1780042305238",
+    "sonha": "",
+    "duongpho": "Đường 102 ",
+    "phuongxa": "Tăng Nhơn Phú A",
+    "tinhthanh": "Quận 9",
+    "area": "52",
+    "price": "7.9",
+    "sotang": "4",
+    "bedroom": "4",
+    "nhavesinh": "2",
+    "direction": "Không Xác Định",
+    "tieu_de": "NHÀ 4 TẦNG ĐẸP, GẦN UBND, TRƯỜNG HỌC TẠI Q9",
+    "mo_ta": "Nhà 4 tầng với diện tích 56m2, thiết kế gồm 1 trệt, 2 lầu và sân thượng trước sau. Có phòng khách rộng rãi, 4 phòng ngủ và 2 WC đầy đủ tiện nghi. Vị trí thuận lợi, gần UBND và các trường học, pháp lý rõ ràng, hoàn công đầy đủ. Chủ nhà cần bán gấp, tôn trọng công sức của môi giới.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042298271_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042299556_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042300813_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042302128_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780042303446_4.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T08:11:45.238Z"
+  },
+  {
     "id": "prod_1780042173341",
     "sonha": "",
     "duongpho": "Đường số 4",
