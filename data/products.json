@@ -1,5 +1,27 @@
 [
   {
+    "id": "prod_1780051150502",
+    "sonha": "",
+    "duongpho": "Võ Văn Hát",
+    "phuongxa": "Long Trường",
+    "tinhthanh": "TP Thủ Đức",
+    "area": "120",
+    "price": "7.5",
+    "sotang": "1",
+    "bedroom": "Không Xác Định",
+    "nhavesinh": "1",
+    "direction": "Không Xác Định",
+    "tieu_de": "DÃY TRỌ 120M2 NGAY VÕ VĂN HÁT, GIÁ CHỈ 7.5 TỶ",
+    "mo_ta": "+ Diện tích 120m2, ngang 5m, dài 24m.+ Dãy trọ 6 phòng, dòng tiền sẵn 9 triệu/tháng. Các phòng có gác rộng rãi.+ Hẻm xe tải 1 trục ra mặt tiền đường, thuận tiện lưu thông.+ Sổ tại chỗ, công chứng ngay.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780051146996_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780051148160_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780051149241_2.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T10:39:10.502Z"
+  },
+  {
     "id": "prod_1780051081421",
     "sonha": "",
     "duongpho": "Đường 182",
