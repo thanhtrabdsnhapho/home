@@ -1,5 +1,27 @@
 [
   {
+    "id": "prod_1780050419633",
+    "sonha": "",
+    "duongpho": "Bưng Ông Thoàn",
+    "phuongxa": "Phú Hữu",
+    "tinhthanh": "TPHCM",
+    "area": "50",
+    "price": "4",
+    "sotang": "1",
+    "bedroom": "Không Xác Định",
+    "nhavesinh": "Không Xác Định",
+    "direction": "Không Xác Định",
+    "tieu_de": "LÔ ĐẤT HẺM XE HƠI GẦN THE GLOBAL CITY CHỈ 4.3 TỶ",
+    "mo_ta": "Vị trí đắc địa tại khu Samsung Village Phú Hữu, gần The Global City, lô đất hẻm xe hơi rộng 7m, diện tích 50m2 với mặt tiền 4.1m, pháp lý rõ ràng, sổ tại nhà công chứng. Cơ hội đầu tư hấp dẫn cho những ai muốn sở hữu đất tại khu vực phát triển sôi động này.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780050415618_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780050416911_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780050418103_2.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T10:26:59.633Z"
+  },
+  {
     "id": "prod_1780050279556",
     "sonha": "",
     "duongpho": "Đường 160",
