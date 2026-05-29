@@ -1,5 +1,30 @@
 [
   {
+    "id": "prod_1780041510124",
+    "sonha": "",
+    "duongpho": "Đường A4",
+    "phuongxa": "Long Phước",
+    "tinhthanh": "Quận 9",
+    "area": "100",
+    "price": "13.6",
+    "sotang": "4",
+    "bedroom": "5",
+    "nhavesinh": "4",
+    "direction": "Không Xác Định",
+    "tieu_de": "MẶT TIỀN ĐẸP 4 TẦNG THANG MÁY TẠI QUẬN 9",
+    "mo_ta": "Vị trí đỉnh ngay trục chính A4, Đông Tăng Long, vỉa hè rộng thoải mái.Mặt tiền vừa ở vừa kinh doanh, xây full đất.Thang máy nhập khẩu, nội thất xịn, nhà ốp gạch từng chi tiết.Khu phân lô đồng bộ, dân chí cao.Sổ tại nhà, cc trong ngày.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041503348_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041504503_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041505602_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041506689_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041507760_4.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041508769_5.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T07:58:30.124Z"
+  },
+  {
     "id": "prod_1780041457659",
     "sonha": "",
     "duongpho": "Cầu Đình",
