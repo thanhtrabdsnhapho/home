@@ -1,5 +1,30 @@
 [
   {
+    "id": "prod_1780043289405",
+    "sonha": "",
+    "duongpho": "Trường Lưu",
+    "phuongxa": "Long Trường",
+    "tinhthanh": "TP Hồ Chí Minh",
+    "area": "52",
+    "price": "5.3",
+    "sotang": "3",
+    "bedroom": "3",
+    "nhavesinh": "3",
+    "direction": "Tây Nam",
+    "tieu_de": "NHÀ HẺM OTO 3 TẦNG HOÀN CÔNG TẠI LONG TRƯỜNG QUẬN 9",
+    "mo_ta": "Nhà chủ mới cho thuê. Kết cấu 3 tầng, 1 trệt 2 lầu. Công năng: Phòng khách, bếp, 3PN, 3WC, sân thượng. Sổ sẵn công chứng ngay, chủ có hỗ trợ khách vay.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043279610_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043281028_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043282623_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043284144_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043285886_4.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043287187_5.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T08:28:09.405Z"
+  },
+  {
     "id": "prod_1780043111873",
     "sonha": "",
     "duongpho": "Trường Lưu",
