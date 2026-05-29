@@ -1,5 +1,32 @@
 [
   {
+    "id": "prod_1780050656724",
+    "sonha": "",
+    "duongpho": "Lã Xuân Oai ",
+    "phuongxa": "Tăng Nhơn Phú A",
+    "tinhthanh": "TP Thủ Đức",
+    "area": "50",
+    "price": "6.6",
+    "sotang": "3",
+    "bedroom": "4",
+    "nhavesinh": "3",
+    "direction": "Tây Nam",
+    "tieu_de": "NHÀ ĐẸP VỊ TRÍ ĐẸP TẠI QUẬN 9 CHO THUÊ DÒNG TIỀN CAO",
+    "mo_ta": "+ DT 50m2, ngang 4.5 dài 11m, sàn 129 m2, vuông đẹp chuẩn hoa hậu, công chứng trong ngày.+ Nhà 1 trệt 2 lầu, 4PN, 3WC, ban công lộng gió, PK, Bếp, giếng trời.+ Nhà xây kiên cố, thiết kế giếng trời sáng cả các tầng nhà không cần mở đèn.+ Hẻm oto đổ ngay cửa, 2 phút ra Lã Xuân Oai, Lê Văn Việt, tiện di chuyển ra ngã tư Thủ Đức, XLHN, Hoàng Hữu Nam, .+ Sổ vuông đẹp.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780050647823_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780050648917_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780050650084_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780050651155_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780050652206_4.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780050653237_5.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780050654222_6.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780050655404_7.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T10:30:56.724Z"
+  },
+  {
     "id": "prod_1780050419633",
     "sonha": "",
     "duongpho": "Bưng Ông Thoàn",
