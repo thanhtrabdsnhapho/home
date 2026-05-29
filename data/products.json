@@ -1,5 +1,32 @@
 [
   {
+    "id": "prod_1780043736321",
+    "sonha": "",
+    "duongpho": "Nguyễn Xiển",
+    "phuongxa": "Long Phước",
+    "tinhthanh": "Quận 9",
+    "area": "51",
+    "price": "5.4",
+    "sotang": "3",
+    "bedroom": "3",
+    "nhavesinh": "4",
+    "direction": "Tây Nam",
+    "tieu_de": "NHÀ ĐẸP 1 TRỆT 2 LẦU TẠI QUẬN 9 CHỈ 5,4 TỶ",
+    "mo_ta": "Nhà đẹp 1 trệt 2 lầu khu nhà ở Việt Nhân với diện tích 51m vuông vức, hoàn công chuẩn 112,9m sàn. Thiết kế hiện đại bao gồm sân để xe, phòng khách, bếp, phòng thờ, 3 phòng ngủ và 4 WC, cùng với ban công thoáng mát. Đường 8m nội bộ xe hơi tránh, vỉa hè 1,5m. Nằm gần đường Vành đai 3 đang thi công, tiềm năng tăng giá nhanh. Hiện tại nhà đang cho thuê 11 triệu/tháng, phù hợp cho việc đầu tư lâu dài với dòng tiền hàng tháng ổn định.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043727275_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043728376_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043729560_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043730634_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043731737_4.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043732836_5.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043733915_6.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780043734980_7.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T08:35:36.321Z"
+  },
+  {
     "id": "prod_1780043652264",
     "sonha": "",
     "duongpho": " Làng Tăng Phú ",
