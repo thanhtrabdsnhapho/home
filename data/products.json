@@ -1,5 +1,27 @@
 [
   {
+    "id": "prod_1780045982421",
+    "sonha": "",
+    "duongpho": "Đường số 4",
+    "phuongxa": "Trường Thạnh",
+    "tinhthanh": "Thủ Đức",
+    "area": "100",
+    "price": "5.5",
+    "sotang": "Không Xác Định",
+    "bedroom": "Không Xác Định",
+    "nhavesinh": "Không Xác Định",
+    "direction": "Đông Bắc",
+    "tieu_de": "LÔ ĐẤT NGANG 10M TẠI TRƯỜNG THẠNH - CƠ HỘI ĐẦU TƯ HIẾM CÓ",
+    "mo_ta": "Chủ gấp bán lô đất ngang 10m tại Trường Thạnh, đường trước nhà rộng 7m, ô tô tránh thoải mái. Diện tích công nhận đủ 100m2, xây dựng trệt + 3 lầu, đã có móng sẵn giúp tiết kiệm chi phí và thời gian thi công. Giá chỉ 5.5 tỷ, cơ hội đầu tư hiếm có tại khu vực.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780045978244_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780045979460_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780045980710_2.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T09:13:02.421Z"
+  },
+  {
     "id": "prod_1780045855349",
     "sonha": "",
     "duongpho": "Đình Phong Phú",
