@@ -1,5 +1,31 @@
 [
   {
+    "id": "prod_1780041705966",
+    "sonha": "",
+    "duongpho": "Diệp Minh Tuyền",
+    "phuongxa": "Phước Long",
+    "tinhthanh": "Hồ Chí Minh",
+    "area": "191",
+    "price": "20",
+    "sotang": "1",
+    "bedroom": "4",
+    "nhavesinh": "2",
+    "direction": "Không Xác Định",
+    "tieu_de": "SIÊU PHẨM ĐẤT BIỆT THỰ LÔ GÓC 2 MẶT TIỀN TẠI QUẬN 9",
+    "mo_ta": "Nằm trong KDC Gia Hoà – khu biệt thự ven sông, an ninh, dân trí cao, không gian sống cực kỳ trong lành. Lô góc 2 mặt tiền thoáng tuyệt đối – vị trí siêu đẹp, cực kỳ lý tưởng để xây biệt thự nghỉ dưỡng. Được thầy phong thuỷ đánh giá là “long mạch” của toàn khu – vượng khí, tài lộc, ở hay đầu tư đều đỉnh. Kết nối nhanh ra Tăng Nhơn Phú – Đỗ Xuân Hợp, di chuyển thuận tiện mọi hướng. Phù hợp xây biệt thự sân vườn đẳng cấp: hồ cá Koi, tiểu cảnh, vườn rau, không gian sống chuẩn “resort tại gia”. Sổ vuông đẹp, pháp lý chuẩn chỉnh – công chứng nhanh gọn.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041696741_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041698080_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041699354_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041700615_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041701956_4.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041703127_5.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041704441_6.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T08:01:45.966Z"
+  },
+  {
     "id": "prod_1780041562840",
     "sonha": "",
     "duongpho": "đường số 5",
