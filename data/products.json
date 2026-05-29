@@ -1,5 +1,27 @@
 [
   {
+    "id": "prod_1780044817671",
+    "sonha": "",
+    "duongpho": "Đường Số 102",
+    "phuongxa": "Tăng Nhơn Phú",
+    "tinhthanh": "TP. Hồ Chí Minh",
+    "area": "58",
+    "price": "6.5",
+    "sotang": "1",
+    "bedroom": "4",
+    "nhavesinh": "3",
+    "direction": "Không Xác Định",
+    "tieu_de": "SIÊU PHẨM ĐẦU TƯ - NHÀ MẶT TIỀN HẺM XE HƠI - THU NHẬP 40 TR/THÁNG",
+    "mo_ta": "Chủ gấp bán giảm 350tr, giá mới: 6.5T. \n Diện tích: 58.1m2 (4x14.5)\n Kết cấu: 4PN 3WC - nhà kiên cố, thiết kế hiện đại gồm nhiều phòng đang cho thuê\n. Dòng tiền: Đang có hợp đồng thuê ổn định 40 triệu/tháng (thu nhập thụ động cực tốt, cao hơn lãi suất ngân hàng).\n Pháp lý chuẩn: \nSổ hồng riêng chính chủ, hoàn công đầy đủ, sang tên ngay. Nhà nằm trong khu vực lõi tri thức và công nghệ của TP. Thủ Đức, cực kỳ thuận tiện cho việc kinh doanh hoặc cho thuê\n. Gần các trường Đại học lớn, cơ quan nhà nước, mua sắm & giải trí, y tế và giao thông thuận lợi.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780044813157_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780044814604_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780044815942_2.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T08:53:37.671Z"
+  },
+  {
     "id": "prod_1780044632930",
     "sonha": "",
     "duongpho": "Nguyễn Duy Trinh",
