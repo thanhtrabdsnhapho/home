@@ -1,5 +1,27 @@
 [
   {
+    "id": "prod_1780045279619",
+    "sonha": "",
+    "duongpho": "Võ Văn Hát",
+    "phuongxa": "Long Trường",
+    "tinhthanh": "Quận 9",
+    "area": "64",
+    "price": "4.5",
+    "sotang": "1",
+    "bedroom": "Không Xác Định",
+    "nhavesinh": "Không Xác Định",
+    "direction": "Tây Nam",
+    "tieu_de": "ĐẤT MẶT TIỀN HẺM VÕ VĂN HÁT, TIỀM NĂNG PHÁT TRIỂN CAO",
+    "mo_ta": "Đất mặt tiền hẻm Võ Văn Hát, ô tô dừng đỗ, thông tứ tung.Trước đất là trường C3 Long Trường, thoáng vĩnh viễn.Đất có hệ số xd cao, được xây 5 tầng, mua để ở hay xây chdv đều được.Khu vực tiềm năng, đang phát triển mạnh, gần đại học tài chính, khu công nghệ cao.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780045274502_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780045276122_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780045277672_2.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T09:01:19.619Z"
+  },
+  {
     "id": "prod_1780045138792",
     "sonha": "",
     "duongpho": "Nguyễn Duy Trinh",
