@@ -1,5 +1,29 @@
 [
   {
+    "id": "prod_1780041769961",
+    "sonha": "",
+    "duongpho": "Võ Văn Hát",
+    "phuongxa": "Long Trường",
+    "tinhthanh": "Quận 9",
+    "area": "52",
+    "price": "4.7",
+    "sotang": "2",
+    "bedroom": "2",
+    "nhavesinh": "2",
+    "direction": "Không Xác Định",
+    "tieu_de": "BÁN NHÀ 2 TẦNG ĐẸP TRÊN ĐƯỜNG VÕ VĂN HÁT GIÁ THƯƠNG LƯỢNG",
+    "mo_ta": "Nhà có diện tích 52m2 với thiết kế vuông vức 4x13, gồm 2 tầng, 2 phòng ngủ và 2 WC hoàn công chuẩn. Hẻm rộng 5m, khu dân trí cao, nhà mới đẹp, phù hợp cho gia đình. Sổ vay ngân hàng VCB 1.2 tỷ, giá bán 4.7 tỷ có thương lượng.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041763665_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041764842_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041765908_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041767084_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780041768307_4.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T08:02:49.961Z"
+  },
+  {
     "id": "prod_1780041705966",
     "sonha": "",
     "duongpho": "Diệp Minh Tuyền",
