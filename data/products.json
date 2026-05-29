@@ -1,5 +1,27 @@
 [
   {
+    "id": "prod_1780050941207",
+    "sonha": "",
+    "duongpho": "102",
+    "phuongxa": "Tăng Nhơn Phú",
+    "tinhthanh": "Quận 9",
+    "area": "200",
+    "price": "12",
+    "sotang": "1",
+    "bedroom": "1",
+    "nhavesinh": "1",
+    "direction": "Tây Bắc",
+    "tieu_de": "NHÀ MẶT TIỀN ĐƯỜNG 102, DIỆN TÍCH ĐẸP, TIỆN XÂY MỚI",
+    "mo_ta": "Nhà mặt tiền đường 102 với diện tích đẹp 8x28m, khuôn viên rộng, tổng diện tích sử dụng 200m2. Đây là cơ hội tuyệt vời để xây mới các loại hình nhà phố. Sổ hồng hoàn công chuẩn, có thể vay ngân hàng.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780050937204_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780050938400_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780050939642_2.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T10:35:41.207Z"
+  },
+  {
     "id": "prod_1780050840204",
     "sonha": "",
     "duongpho": "Đường 970",
