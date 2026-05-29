@@ -1,5 +1,29 @@
 [
   {
+    "id": "prod_1780024916256",
+    "sonha": "",
+    "duongpho": "Đường 970",
+    "phuongxa": "Phú Hữu",
+    "tinhthanh": "Thủ Đức",
+    "area": "52",
+    "price": "6.5",
+    "sotang": "4",
+    "bedroom": "4",
+    "nhavesinh": "4",
+    "direction": "Không Xác Định",
+    "tieu_de": "NHÀ HOÀN THIỆN ĐƯỜNG XE TẢI TRÁNH TẠI PHÚ HỮU",
+    "mo_ta": "Nhà đã hoàn thiện, nằm trên đường 8m xe tải tránh, thuộc khu phân lô TT Phú Hữu, thiết kế 1 trệt 3 lầu, có sân thượng, 4 phòng ngủ, 4 nhà vệ sinh, sổ riêng, hoàn công.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780024910188_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780024911397_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780024912600_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780024913736_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780024914933_4.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-29T03:21:56.256Z"
+  },
+  {
     "id": "prod_1780019907248",
     "sonha": "",
     "duongpho": "Lã Xuân Oai",
