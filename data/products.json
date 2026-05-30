@@ -1,5 +1,30 @@
 [
   {
+    "id": "prod_1780138913985",
+    "sonha": "",
+    "duongpho": "Đường 53",
+    "phuongxa": " Long Trường",
+    "tinhthanh": "TP Thủ Đức",
+    "area": "110",
+    "price": "7.2",
+    "sotang": "4",
+    "bedroom": "Không Xác Định",
+    "nhavesinh": "Không Xác Định",
+    "direction": "Không Xác Định",
+    "tieu_de": "CHỦ NHÀ GIẢM GIÁ – CHDV 4 TẦNG, ĐƯỜNG Ô TÔ, P. LONG TRƯỜNG, THỦ ĐỨC",
+    "mo_ta": "📍 Vị trí: Đường 53, Phường Long Trường, TP Thủ Đức.\n- Diện tích: 110m², Kết cấu: 4 tầng, 12 phòng ngủ, đường ô tô vào nhà.\n- Giá mới ưu đãi: 7,2 tỷ.\n📍 Tiện ích: CHDV 4 tầng, 12 phòng cho thuê, thu nhập 40 triệu/tháng, hiện đang cho thuê full phòng.\n- Giao thông kết nối: Gần TTTM, quy hoạch trường học, bệnh viện kế bên, dễ dàng di chuyển ra các trục đường lớn như Võ Văn Hát, Lã Xuân Oai, Nguyễn Duy Trinh, Đỗ Xuân Hợp, Lê Văn Việt.\n- Địa hình: Khu phân lô đồng bộ, không gian thoáng đãng, KHÔNG BỊ ẢNH HƯỞNG BỞI NGẬP LỤT.\n📍 Pháp lý: Pháp lý chuẩn, rõ ràng, sổ hồng riêng sẵn sàng giao dịch.\n- Quý khách hàng quan tâm đến tài sản này vui lòng liên hệ để nhận thêm chi tiết và sắp xếp lịch xem nhà.",
+    "images": [
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780138907574_0.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780138908564_1.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780138909635_2.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780138910675_3.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780138911617_4.jpeg",
+      "https://raw.githubusercontent.com/thanhtrabdsnhapho/home/main/images/products/img_1780138912620_5.jpeg"
+    ],
+    "views": 0,
+    "created_at": "2026-05-30T11:01:53.985Z"
+  },
+  {
     "id": "prod_1780051502404",
     "sonha": "",
     "duongpho": "Đường số 2",
